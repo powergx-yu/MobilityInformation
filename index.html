@@ -104,7 +104,7 @@
   .dual{display:grid; grid-template-columns:32% minmax(0,1fr); gap:0 48px; position:relative; padding:0 2px;}
   .dual>div{min-width:0;}
   .arrowlayer{position:absolute; inset:0; pointer-events:none; z-index:4; overflow:visible;}
-  .arrow-svg{position:absolute; inset:0; width:100%; height:100%; overflow:visible; display:block;}
+  .arrow-svg{position:absolute; inset:0; width:100%; height:100%; overflow:hidden; display:block; pointer-events:none;}
   .alab-chip{position:absolute; font-family:var(--mono); font-size:10.5px; font-weight:700; color:var(--teal); background:#051412; border:1px solid rgba(0,242,195,.6); padding:1px 5px; line-height:1.2; white-space:nowrap; pointer-events:none; box-shadow:0 2px 8px rgba(0,0,0,.9);}
   .colhead{font-family:var(--mono); font-size:10.5px; letter-spacing:.1em; color:var(--mut); text-transform:uppercase; padding:2px 2px 6px;}
   .colhead.hot{color:var(--org-bright); font-size:11.5px; font-weight:700;}
@@ -258,6 +258,17 @@
   }
   html.fullbleed body{max-width:none;}
   html.fullbleed #tabs{max-width:none;}
+  /* fit isolation (agy-reviewed 2026-11-25): zoom lives on #fitWrap and the
+     tab bar's inner wrapper only; the fixed #tabs shell itself stays unzoomed.
+     Compact spacing is shared with fullbleed, font sizes are NOT touched. */
+  html,body{overflow-x:clip;}
+  #fitWrap{zoom: var(--fit, 1);}
+  #tabs .tabs-in{zoom: var(--fit, 1);}
+  html.fullbleed .dual{grid-template-columns:minmax(0,34%) minmax(0,1fr); gap:0 34px;}
+  html.fullbleed .toolrow{gap:6px;}
+  html.fullbleed .blk{padding:8px 7px 7px;}
+  html.fullbleed .trow{gap:5px 6px; padding:7px 7px;}
+  html.fullbleed body{padding-bottom: calc(56px * var(--fit, 1) + env(safe-area-inset-bottom));}
   @media(max-width:560px){
     .toolrow{gap:6px;}
     .toolrow button{font-size:11.5px; letter-spacing:.04em; padding:0 4px;}
@@ -293,7 +304,7 @@
   <div class="w-sub" id="wSub">加载中…</div>
 </section>
 
-<main id="appView">
+<div id="fitWrap"><main id="appView">
   <header>
     <div class="hazard-top"></div>
     <div class="tickbar"></div>
@@ -396,15 +407,17 @@
     <p>有了密钥后，只有当西武铁道或东京地铁出现延误时，画面顶部才会出现红色横幅提示。没有密钥也能用全部功能，只是不显示延误信息；没有网络的地方，时刻表显示照常工作。</p>
     <button class="act" id="btnBackFromGuide" type="button">返回</button>
   </section>
-</main>
+</main></div>
 
 <nav id="tabs" aria-label="页面切换">
+  <div class="tabs-in">
   <div class="tabrow">
     <button id="tabHome" type="button"><div class="t1">家</div><div class="t2">Home</div></button>
     <button id="tabStation" type="button"><div class="t1">保谷站</div><div class="t2">Hoya St</div></button>
     <button id="tabWork" type="button"><div class="t1">公司</div><div class="t2">Work</div></button>
   </div>
   <div class="lockline"><span id="lockLeft">GPS SUGGEST: ON</span><button class="lk-btn" id="lockRight" type="button" title="点击提前解除 30 分钟锁定" style="display:none;"></button></div>
+  </div>
 </nav>
 
 <script>
@@ -920,7 +933,8 @@ function layoutArrows(){
     layer.querySelectorAll(".alab-chip").forEach(el=>el.remove());
     while(svg.firstChild) svg.removeChild(svg.firstChild);
     const dr = dual.getBoundingClientRect();
-    const w = Math.max(1, Math.round(dr.width)), h = Math.max(1, Math.round(dr.height));
+    const z = dual.offsetWidth ? dr.width / dual.offsetWidth : 1; /* 实测缩放比：rect 坐标除以 z 回到布局像素，兼容 zoom 内核差异 */
+    const w = Math.max(1, Math.round(dr.width / z)), h = Math.max(1, Math.round(dr.height / z));
     svg.setAttribute("viewBox", "0 0 " + w + " " + h);
     svg.setAttribute("width", w);
     svg.setAttribute("height", h);
@@ -934,11 +948,11 @@ function layoutArrows(){
         toId: m.getAttribute("data-to"),
         wait: m.getAttribute("data-wait"),
         primary: m.getAttribute("data-primary") === "1",
-        x1: fr.right - dr.left + 1,
-        y1: fr.top + fr.height/2 - dr.top,
-        x2: tr.left - dr.left - 3,
-        y2Base: tr.top + tr.height/2 - dr.top,
-        trH: tr.height
+        x1: (fr.right - dr.left) / z + 1,
+        y1: (fr.top + fr.height/2 - dr.top) / z,
+        x2: (tr.left - dr.left) / z - 3,
+        y2Base: (tr.top + tr.height/2 - dr.top) / z,
+        trH: tr.height / z
       });
     });
     if(!items.length) return;
@@ -1040,17 +1054,26 @@ function locate(){ /* GPS removed by user decision 2026-11-25: manual page switc
 $("gpsHintTxt").addEventListener("click", ()=>{ if(gpsSuggestion) setMode(gpsSuggestion.mode, true); });
 $("gpsHintX").addEventListener("click", hideGpsHint);
 
-/* ===== 屏幕自适应：满幅 + 视口缩放补偿（浏览器以宽视口缩小时按比例放大回真实尺寸） ===== */
+/* ===== 屏幕自适应（agy 评审方案 2026-11-25）：仅「竖屏小设备却拿到宽视口」时触发；
+   zoom 不再加在 <html> 上，改写 CSS 变量 --fit，由 #fitWrap 与底栏内层承接，
+   position:fixed 外壳保持原生。正常视口设备（iPhone/桌面/横屏）走原生分支。 ===== */
 function applyScreenFit(){
-  const sw = (window.screen && screen.width) ? screen.width : 0;
-  const iw = window.innerWidth || 0;
   const de = document.documentElement;
-  de.classList.toggle("fullbleed", Math.min(sw || 9999, iw || 9999) <= 1100);
-  if(sw > 0 && iw > sw * 1.15){ de.style.zoom = String(iw / sw); }
-  else { de.style.zoom = ""; }
+  const sw = Math.min(screen.width || 9999, screen.height || 9999);
+  const iw = window.innerWidth || 0, ih = window.innerHeight || 0;
+  de.style.zoom = "";
+  if(ih >= iw && sw <= 540 && iw > Math.max(600, sw * 1.15)){
+    de.classList.add("fullbleed");
+    de.style.setProperty("--fit", String(iw / sw));
+  } else {
+    de.classList.remove("fullbleed");
+    de.style.removeProperty("--fit");
+  }
+  if(typeof layoutArrows === "function") requestAnimationFrame(()=>layoutArrows());
 }
 window.addEventListener("resize", applyScreenFit);
 window.addEventListener("orientationchange", applyScreenFit);
+if(window.visualViewport) visualViewport.addEventListener("resize", applyScreenFit);
 applyScreenFit();
 
 /* ===== ODPT 延误信息（可选・失败时静默） ===== */
