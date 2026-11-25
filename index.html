@@ -1040,11 +1040,14 @@ function locate(){ /* GPS removed by user decision 2026-11-25: manual page switc
 $("gpsHintTxt").addEventListener("click", ()=>{ if(gpsSuggestion) setMode(gpsSuggestion.mode, true); });
 $("gpsHintX").addEventListener("click", hideGpsHint);
 
-/* ===== 屏幕自适应：按真实屏幕尺寸判定，手机一律满幅 ===== */
+/* ===== 屏幕自适应：满幅 + 视口缩放补偿（浏览器以宽视口缩小时按比例放大回真实尺寸） ===== */
 function applyScreenFit(){
-  const sw = (window.screen && screen.width) ? screen.width : 9999;
-  const iw = window.innerWidth || 9999;
-  document.documentElement.classList.toggle("fullbleed", Math.min(sw, iw) <= 1100);
+  const sw = (window.screen && screen.width) ? screen.width : 0;
+  const iw = window.innerWidth || 0;
+  const de = document.documentElement;
+  de.classList.toggle("fullbleed", Math.min(sw || 9999, iw || 9999) <= 1100);
+  if(sw > 0 && iw > sw * 1.15){ de.style.zoom = String(iw / sw); }
+  else { de.style.zoom = ""; }
 }
 window.addEventListener("resize", applyScreenFit);
 window.addEventListener("orientationchange", applyScreenFit);
