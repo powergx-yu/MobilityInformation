@@ -1,0 +1,5681 @@
+{
+ "weekday": [
+  {
+   "dep": "04:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "04:40",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "04:52",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:12",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:21",
+   "type": "各停",
+   "dest": "小竹向原",
+   "stops": true
+  },
+  {
+   "dep": "05:31",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:37",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "05:40",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "05:48",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:54",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "05:56",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "06:02",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:06",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:09",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "06:13",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:15",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:19",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:22",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:24",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:26",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "06:30",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:32",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:35",
+   "type": "S-TRAIN",
+   "dest": "豊洲",
+   "stops": true
+  },
+  {
+   "dep": "06:37",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:38",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "06:41",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:43",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:45",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:47",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "06:49",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:51",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:54",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:57",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "06:59",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:01",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:03",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "07:06",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:08",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:11",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:13",
+   "type": "通勤急行",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:15",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "07:17",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:19",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "07:21",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:23",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:26",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:27",
+   "type": "快速",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "07:31",
+   "type": "通勤急行",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:33",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "07:35",
+   "type": "快速急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:37",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:39",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:40",
+   "type": "快速",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "07:43",
+   "type": "通勤急行",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:46",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "07:48",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "07:49",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:52",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:53",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:56",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "07:58",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:59",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:03",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "08:06",
+   "type": "通勤急行",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:09",
+   "type": "通勤準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:11",
+   "type": "快速",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "08:13",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:14",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:18",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "08:20",
+   "type": "各停",
+   "dest": "武蔵小杉",
+   "stops": true
+  },
+  {
+   "dep": "08:24",
+   "type": "通勤急行",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:27",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "08:29",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:32",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "08:34",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:36",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "08:39",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "08:42",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:45",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:48",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "08:51",
+   "type": "S-TRAIN",
+   "dest": "豊洲",
+   "stops": true
+  },
+  {
+   "dep": "08:54",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "08:55",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:57",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:00",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "09:03",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:05",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:10",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "09:17",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:21",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:22",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "09:26",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:28",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "09:32",
+   "type": "各停",
+   "dest": "武蔵小杉",
+   "stops": true
+  },
+  {
+   "dep": "09:34",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:37",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:41",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "09:44",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:47",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:51",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "09:53",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:56",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "10:01",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "10:07",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:11",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "10:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:21",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:24",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:27",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "10:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "10:41",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "10:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:50",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:55",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "10:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "11:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "11:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "11:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "11:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:24",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:27",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "11:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "11:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "11:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "11:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "11:50",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:55",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "11:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "12:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "12:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "12:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "12:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:28",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "12:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "12:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "12:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "12:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "12:51",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:55",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "12:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "13:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "13:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "13:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "13:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:28",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "13:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "13:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "13:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "13:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "13:51",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:55",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "13:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "14:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "14:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "14:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "14:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:28",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "14:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "14:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "14:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "14:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "14:51",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:55",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "14:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "15:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "15:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:28",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "15:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "15:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "15:46",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "15:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:50",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:56",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "16:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "16:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "16:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:28",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "16:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "16:33",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "16:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "16:49",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "16:52",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:55",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "16:57",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:00",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "17:02",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:06",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:10",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:12",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:15",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "17:18",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "17:20",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:22",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:28",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:33",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:34",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "17:36",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:40",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:42",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:45",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "17:50",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:52",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:58",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:03",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:06",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "18:07",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:10",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:12",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:15",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "18:18",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "18:20",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:22",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:27",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:33",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:35",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "18:37",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:39",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:41",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:44",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "18:50",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:52",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:55",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "18:58",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:03",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:04",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "19:07",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:09",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:11",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:15",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "19:20",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:22",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:25",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "19:28",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:33",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:34",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "19:37",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:43",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:45",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:47",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "19:50",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "19:52",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:58",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:01",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "20:04",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:06",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:11",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:15",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:17",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "20:22",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:25",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "20:28",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:33",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:35",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "20:37",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:43",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:46",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:49",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "20:55",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:58",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:00",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "21:05",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:07",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:11",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:16",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:18",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "21:27",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:31",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:33",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:36",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "21:43",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:47",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:54",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:57",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "22:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:05",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "22:07",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:10",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "22:15",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "22:17",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:24",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:27",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "22:33",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "22:36",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:42",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "22:47",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:52",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:58",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "23:03",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "23:04",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "23:07",
+   "type": "各停",
+   "dest": "小竹向原",
+   "stops": true
+  },
+  {
+   "dep": "23:14",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "23:19",
+   "type": "各停",
+   "dest": "菊名",
+   "stops": true
+  },
+  {
+   "dep": "23:26",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "23:29",
+   "type": "各停",
+   "dest": "元住吉",
+   "stops": true
+  },
+  {
+   "dep": "23:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "23:37",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "23:42",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "23:46",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  }
+ ],
+ "saturday": [
+  {
+   "dep": "04:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "04:40",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "04:52",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:12",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:21",
+   "type": "各停",
+   "dest": "小竹向原",
+   "stops": true
+  },
+  {
+   "dep": "05:31",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:37",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "05:40",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "05:48",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:54",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "05:56",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "06:02",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:10",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:12",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "06:18",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:19",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:25",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:27",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "06:33",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:36",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "06:40",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:43",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:47",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:52",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "06:56",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:58",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:06",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:08",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "07:13",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:16",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:21",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "07:25",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:28",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:38",
+   "type": "快速",
+   "dest": "新木場",
+   "stops": false
+  },
+  {
+   "dep": "07:41",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "07:45",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:48",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:53",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "07:58",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:59",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:01",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:04",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:07",
+   "type": "快速",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "08:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "08:17",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:19",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:24",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:27",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:34",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "08:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "08:41",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:43",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "08:47",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:49",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:52",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:55",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:57",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:04",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:06",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "09:08",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "09:11",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:14",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:16",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "09:23",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:26",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "09:28",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:34",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:37",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "09:40",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "09:44",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:47",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:48",
+   "type": "S-TRAIN",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "09:49",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "09:54",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:59",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:02",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:04",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "10:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "10:11",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:16",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "10:19",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:21",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:33",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "10:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "10:44",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "10:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:51",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:56",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "10:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "11:01",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:04",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "11:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "11:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "11:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "11:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "11:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "11:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "11:50",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:55",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "11:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "12:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "12:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "12:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "12:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:28",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "12:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "12:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "12:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "12:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "12:51",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:55",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "12:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "13:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "13:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "13:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "13:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:28",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "13:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "13:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "13:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "13:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "13:51",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:55",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "13:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "14:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "14:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "14:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "14:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:28",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "14:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "14:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "14:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "14:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "14:50",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:54",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "14:57",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:02",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "15:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "15:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:27",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "15:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "15:42",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "15:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:50",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:53",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "15:57",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:59",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "16:02",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "16:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "16:16",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:19",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "16:25",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "16:27",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "16:33",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "16:42",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "16:49",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "16:51",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:56",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "16:58",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:01",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:03",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "17:12",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "17:17",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:19",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:26",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:33",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:34",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:39",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:41",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "17:45",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "17:50",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:52",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:56",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:00",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:01",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:03",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "18:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "18:17",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:21",
+   "type": "S-TRAIN",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "18:24",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:26",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "18:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:33",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:39",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:41",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "18:46",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:50",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:55",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:02",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:04",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:08",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:12",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "19:19",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:22",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:26",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:33",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:36",
+   "type": "快速",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "19:42",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "19:45",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:49",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:52",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:56",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "20:02",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:04",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:07",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "20:11",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "20:15",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:17",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:23",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:26",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "20:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:34",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:37",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "20:41",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "20:46",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:49",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:52",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:59",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:02",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:04",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:07",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "21:11",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "21:16",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:18",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:24",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "21:29",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "21:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:34",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:36",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:45",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:49",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:53",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "22:02",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "22:03",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:05",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "22:11",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "22:15",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "22:17",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:25",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "22:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "22:33",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:41",
+   "type": "各停",
+   "dest": "横浜",
+   "stops": true
+  },
+  {
+   "dep": "22:44",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "22:48",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "22:53",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "23:00",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "23:07",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "23:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "23:22",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "23:27",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "23:30",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "23:33",
+   "type": "各停",
+   "dest": "元住吉",
+   "stops": true
+  },
+  {
+   "dep": "23:46",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  }
+ ],
+ "holiday": [
+  {
+   "dep": "04:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "04:40",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "04:52",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:12",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:21",
+   "type": "各停",
+   "dest": "小竹向原",
+   "stops": true
+  },
+  {
+   "dep": "05:31",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:37",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "05:40",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "05:48",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "05:54",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "05:56",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "06:02",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:10",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:12",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "06:18",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:19",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:25",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:27",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "06:33",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:36",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "06:40",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:43",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "06:47",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:52",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "06:56",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "06:58",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:06",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:08",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "07:13",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:16",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:21",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "07:25",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:28",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:38",
+   "type": "快速",
+   "dest": "新木場",
+   "stops": false
+  },
+  {
+   "dep": "07:41",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "07:45",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "07:48",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:53",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "07:58",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "07:59",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:01",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:04",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:07",
+   "type": "快速",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "08:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "08:17",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:19",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:24",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:27",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:34",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "08:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "08:41",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:43",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "08:47",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:49",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:52",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "08:55",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "08:57",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:04",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:06",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "09:08",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "09:11",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:14",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:16",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "09:23",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:26",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "09:28",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:34",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:37",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "09:40",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "09:44",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "09:47",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:48",
+   "type": "S-TRAIN",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "09:49",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "09:54",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "09:59",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:02",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:04",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "10:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "10:11",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:16",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "10:19",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:21",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:33",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "10:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "10:44",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "10:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "10:51",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "10:56",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "10:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "11:01",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:04",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "11:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "11:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "11:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "11:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "11:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "11:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "11:50",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "11:55",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "11:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "12:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "12:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "12:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "12:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:28",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "12:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "12:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "12:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "12:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "12:51",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "12:55",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "12:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "13:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "13:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "13:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "13:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:28",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "13:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "13:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "13:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "13:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "13:51",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "13:55",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "13:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "14:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "14:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "14:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "14:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:28",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "14:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "14:32",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "14:41",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "14:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "14:50",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:54",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "14:57",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "14:58",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:01",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:02",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "15:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "15:18",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:20",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:25",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:27",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "15:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "15:42",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "15:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "15:50",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:53",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "15:57",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "15:59",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "16:02",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "16:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "16:16",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:19",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "16:25",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "16:27",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "16:33",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:39",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "16:42",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "16:49",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "16:51",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "16:56",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "16:58",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:01",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:03",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:05",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "17:12",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "17:17",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:19",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:26",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:33",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:34",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:39",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:41",
+   "type": "準急",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "17:45",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "17:50",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "17:52",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "17:56",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:00",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:01",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:03",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:09",
+   "type": "快速急行",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "18:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "18:17",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:21",
+   "type": "S-TRAIN",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "18:24",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:26",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "18:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:33",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:39",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:41",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "18:46",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:48",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "18:50",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "18:55",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:02",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:04",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:08",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:12",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "19:19",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:22",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:26",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:31",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:33",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:36",
+   "type": "快速",
+   "dest": "元町・中華街",
+   "stops": false
+  },
+  {
+   "dep": "19:42",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "19:45",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:49",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "19:52",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "19:56",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "20:02",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:04",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:07",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "20:11",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "20:15",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:17",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:23",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:26",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "20:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:34",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:37",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "20:41",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "20:46",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:49",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "20:52",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "20:59",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:02",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:04",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:07",
+   "type": "準急",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "21:11",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "21:16",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:18",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:24",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "21:29",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "21:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:34",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:36",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:45",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "21:49",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "21:53",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "22:02",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "22:03",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:05",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "22:11",
+   "type": "各停",
+   "dest": "元町・中華街",
+   "stops": true
+  },
+  {
+   "dep": "22:15",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "22:17",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:25",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "22:32",
+   "type": "特急",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "22:33",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:35",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "22:41",
+   "type": "各停",
+   "dest": "横浜",
+   "stops": true
+  },
+  {
+   "dep": "22:44",
+   "type": "急行",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "22:48",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "22:53",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "23:00",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "23:07",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "23:11",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "23:22",
+   "type": "各停",
+   "dest": "新木場",
+   "stops": true
+  },
+  {
+   "dep": "23:27",
+   "type": "各停",
+   "dest": "池袋",
+   "stops": true
+  },
+  {
+   "dep": "23:30",
+   "type": "快速",
+   "dest": "池袋",
+   "stops": false
+  },
+  {
+   "dep": "23:33",
+   "type": "各停",
+   "dest": "元住吉",
+   "stops": true
+  },
+  {
+   "dep": "23:46",
+   "type": "準急",
+   "dest": "池袋",
+   "stops": true
+  }
+ ],
+ "_meta": {
+  "source": "停車列車: 駅探(ekitan)保谷駅時刻表(2025年3月15日改正) = 既存 seibu_hoya_up.json をそのまま転記し逐項検証済み。通過列車: 西武鉄道公式標準時刻表(保谷駅・ひばりヶ丘駅・所沢駅、seibu.ekitan.com、2025年3月15日改正)および駅探ひばりヶ丘駅・所沢駅時刻表(2025年3月15日現在)より列挙。2026-11-25 取得。",
+  "revision": "2025-03-15",
+  "passing_time_method": "公式標準時刻表は通過列車を時刻なし(－)で順序のみ表示するため、通過時刻は推算。急行・快速・快速急行はひばりヶ丘停車→保谷通過で、通過時刻=ひばりヶ丘発+2分(停車する準急のひばりヶ丘→保谷も2〜3分、保谷公式標の順序区間で校正)。特急(ラビュー、ひばりヶ丘も通過)と土休日S-TRAINは所沢発+9分とし、保谷公式標の順序と矛盾する2件(平日06:29発→06:37、07:43発→07:53)は標の順序に合わせて調整。通過時刻の精度は±1分程度。",
+  "type_notes": "種別は公式標の表記に正規化: Ｆ快/快急→快速急行、快○/快□→快速、特急ちちぶ・むさし→特急。S-TRAINは平日のみ保谷停車(停車分は旧ファイル由来)、土休日は保谷通過で2本のみ。",
+  "dest_classification": {
+   "有楽町線直通": [
+    "新木場",
+    "豊洲"
+   ],
+   "副都心線直通": [
+    "元町・中華街",
+    "横浜",
+    "元住吉",
+    "武蔵小杉",
+    "菊名"
+   ],
+   "西武池袋線終点": [
+    "池袋"
+   ],
+   "西武有楽町線終点(直通ではない)": [
+    "小竹向原"
+   ],
+   "note": "有楽町線直通=小竹向原から東京メトロ有楽町線へ入る列車(行先は新木場・豊洲)。副都心線直通=小竹向原から副都心線へ入る列車(元町・中華街・横浜は東横線/みなとみらい線直通、元住吉・武蔵小杉・菊名は東横線内行先)。小竹向原行は西武有楽町線の終点止まりで直通ではない。"
+  },
+  "day_types": "土曜と休日は同一ダイヤ(土休日)。holiday は saturday と同一内容。"
+ }
+}

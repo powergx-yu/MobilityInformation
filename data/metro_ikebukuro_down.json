@@ -1,0 +1,2459 @@
+{
+ "weekday": [
+  {
+   "dep": "05:00",
+   "arr_ichigaya": "05:11"
+  },
+  {
+   "dep": "05:10",
+   "arr_ichigaya": "05:21"
+  },
+  {
+   "dep": "05:19",
+   "arr_ichigaya": "05:30"
+  },
+  {
+   "dep": "05:31",
+   "arr_ichigaya": "05:42"
+  },
+  {
+   "dep": "05:42",
+   "arr_ichigaya": "05:53"
+  },
+  {
+   "dep": "05:50",
+   "arr_ichigaya": "06:01"
+  },
+  {
+   "dep": "05:57",
+   "arr_ichigaya": "06:08"
+  },
+  {
+   "dep": "06:03",
+   "arr_ichigaya": "06:14"
+  },
+  {
+   "dep": "06:08",
+   "arr_ichigaya": "06:19"
+  },
+  {
+   "dep": "06:13",
+   "arr_ichigaya": "06:24"
+  },
+  {
+   "dep": "06:18",
+   "arr_ichigaya": "06:29"
+  },
+  {
+   "dep": "06:23",
+   "arr_ichigaya": "06:34"
+  },
+  {
+   "dep": "06:28",
+   "arr_ichigaya": "06:39"
+  },
+  {
+   "dep": "06:32",
+   "arr_ichigaya": "06:43"
+  },
+  {
+   "dep": "06:37",
+   "arr_ichigaya": "06:48"
+  },
+  {
+   "dep": "06:41",
+   "arr_ichigaya": "06:52"
+  },
+  {
+   "dep": "06:46",
+   "arr_ichigaya": "06:57"
+  },
+  {
+   "dep": "06:50",
+   "arr_ichigaya": "07:01"
+  },
+  {
+   "dep": "06:55",
+   "arr_ichigaya": "07:06"
+  },
+  {
+   "dep": "07:01",
+   "arr_ichigaya": "07:12"
+  },
+  {
+   "dep": "07:04",
+   "arr_ichigaya": "07:15"
+  },
+  {
+   "dep": "07:09",
+   "arr_ichigaya": "07:20"
+  },
+  {
+   "dep": "07:13",
+   "arr_ichigaya": "07:24"
+  },
+  {
+   "dep": "07:17",
+   "arr_ichigaya": "07:28"
+  },
+  {
+   "dep": "07:22",
+   "arr_ichigaya": "07:33"
+  },
+  {
+   "dep": "07:26",
+   "arr_ichigaya": "07:37"
+  },
+  {
+   "dep": "07:30",
+   "arr_ichigaya": "07:41"
+  },
+  {
+   "dep": "07:33",
+   "arr_ichigaya": "07:44"
+  },
+  {
+   "dep": "07:36",
+   "arr_ichigaya": "07:47"
+  },
+  {
+   "dep": "07:39",
+   "arr_ichigaya": "07:50"
+  },
+  {
+   "dep": "07:42",
+   "arr_ichigaya": "07:53"
+  },
+  {
+   "dep": "07:44",
+   "arr_ichigaya": "07:55"
+  },
+  {
+   "dep": "07:47",
+   "arr_ichigaya": "07:58"
+  },
+  {
+   "dep": "07:50",
+   "arr_ichigaya": "08:01"
+  },
+  {
+   "dep": "07:52",
+   "arr_ichigaya": "08:03"
+  },
+  {
+   "dep": "07:55",
+   "arr_ichigaya": "08:06"
+  },
+  {
+   "dep": "07:58",
+   "arr_ichigaya": "08:09"
+  },
+  {
+   "dep": "08:01",
+   "arr_ichigaya": "08:12"
+  },
+  {
+   "dep": "08:04",
+   "arr_ichigaya": "08:15"
+  },
+  {
+   "dep": "08:07",
+   "arr_ichigaya": "08:18"
+  },
+  {
+   "dep": "08:09",
+   "arr_ichigaya": "08:20"
+  },
+  {
+   "dep": "08:12",
+   "arr_ichigaya": "08:23"
+  },
+  {
+   "dep": "08:14",
+   "arr_ichigaya": "08:25"
+  },
+  {
+   "dep": "08:17",
+   "arr_ichigaya": "08:28"
+  },
+  {
+   "dep": "08:19",
+   "arr_ichigaya": "08:30"
+  },
+  {
+   "dep": "08:22",
+   "arr_ichigaya": "08:33"
+  },
+  {
+   "dep": "08:25",
+   "arr_ichigaya": "08:36"
+  },
+  {
+   "dep": "08:27",
+   "arr_ichigaya": "08:38"
+  },
+  {
+   "dep": "08:30",
+   "arr_ichigaya": "08:41"
+  },
+  {
+   "dep": "08:33",
+   "arr_ichigaya": "08:44"
+  },
+  {
+   "dep": "08:36",
+   "arr_ichigaya": "08:47"
+  },
+  {
+   "dep": "08:39",
+   "arr_ichigaya": "08:50"
+  },
+  {
+   "dep": "08:42",
+   "arr_ichigaya": "08:53"
+  },
+  {
+   "dep": "08:45",
+   "arr_ichigaya": "08:56"
+  },
+  {
+   "dep": "08:48",
+   "arr_ichigaya": "08:59"
+  },
+  {
+   "dep": "08:51",
+   "arr_ichigaya": "09:02"
+  },
+  {
+   "dep": "08:54",
+   "arr_ichigaya": "09:05"
+  },
+  {
+   "dep": "08:57",
+   "arr_ichigaya": "09:08"
+  },
+  {
+   "dep": "09:00",
+   "arr_ichigaya": "09:11"
+  },
+  {
+   "dep": "09:03",
+   "arr_ichigaya": "09:14"
+  },
+  {
+   "dep": "09:06",
+   "arr_ichigaya": "09:17"
+  },
+  {
+   "dep": "09:09",
+   "arr_ichigaya": "09:20"
+  },
+  {
+   "dep": "09:12",
+   "arr_ichigaya": "09:23"
+  },
+  {
+   "dep": "09:18",
+   "arr_ichigaya": "09:29"
+  },
+  {
+   "dep": "09:24",
+   "arr_ichigaya": "09:35"
+  },
+  {
+   "dep": "09:30",
+   "arr_ichigaya": "09:41"
+  },
+  {
+   "dep": "09:36",
+   "arr_ichigaya": "09:47"
+  },
+  {
+   "dep": "09:42",
+   "arr_ichigaya": "09:53"
+  },
+  {
+   "dep": "09:48",
+   "arr_ichigaya": "09:59"
+  },
+  {
+   "dep": "09:54",
+   "arr_ichigaya": "10:05"
+  },
+  {
+   "dep": "09:59",
+   "arr_ichigaya": "10:10"
+  },
+  {
+   "dep": "10:04",
+   "arr_ichigaya": "10:15"
+  },
+  {
+   "dep": "10:09",
+   "arr_ichigaya": "10:20"
+  },
+  {
+   "dep": "10:14",
+   "arr_ichigaya": "10:25"
+  },
+  {
+   "dep": "10:20",
+   "arr_ichigaya": "10:31"
+  },
+  {
+   "dep": "10:25",
+   "arr_ichigaya": "10:36"
+  },
+  {
+   "dep": "10:31",
+   "arr_ichigaya": "10:42"
+  },
+  {
+   "dep": "10:37",
+   "arr_ichigaya": "10:48"
+  },
+  {
+   "dep": "10:43",
+   "arr_ichigaya": "10:54"
+  },
+  {
+   "dep": "10:49",
+   "arr_ichigaya": "11:00"
+  },
+  {
+   "dep": "10:55",
+   "arr_ichigaya": "11:06"
+  },
+  {
+   "dep": "11:01",
+   "arr_ichigaya": "11:12"
+  },
+  {
+   "dep": "11:07",
+   "arr_ichigaya": "11:18"
+  },
+  {
+   "dep": "11:13",
+   "arr_ichigaya": "11:24"
+  },
+  {
+   "dep": "11:19",
+   "arr_ichigaya": "11:30"
+  },
+  {
+   "dep": "11:25",
+   "arr_ichigaya": "11:36"
+  },
+  {
+   "dep": "11:31",
+   "arr_ichigaya": "11:42"
+  },
+  {
+   "dep": "11:37",
+   "arr_ichigaya": "11:48"
+  },
+  {
+   "dep": "11:43",
+   "arr_ichigaya": "11:54"
+  },
+  {
+   "dep": "11:49",
+   "arr_ichigaya": "12:00"
+  },
+  {
+   "dep": "11:55",
+   "arr_ichigaya": "12:06"
+  },
+  {
+   "dep": "12:01",
+   "arr_ichigaya": "12:12"
+  },
+  {
+   "dep": "12:07",
+   "arr_ichigaya": "12:18"
+  },
+  {
+   "dep": "12:13",
+   "arr_ichigaya": "12:24"
+  },
+  {
+   "dep": "12:19",
+   "arr_ichigaya": "12:30"
+  },
+  {
+   "dep": "12:25",
+   "arr_ichigaya": "12:36"
+  },
+  {
+   "dep": "12:31",
+   "arr_ichigaya": "12:42"
+  },
+  {
+   "dep": "12:37",
+   "arr_ichigaya": "12:48"
+  },
+  {
+   "dep": "12:43",
+   "arr_ichigaya": "12:54"
+  },
+  {
+   "dep": "12:49",
+   "arr_ichigaya": "13:00"
+  },
+  {
+   "dep": "12:55",
+   "arr_ichigaya": "13:06"
+  },
+  {
+   "dep": "13:01",
+   "arr_ichigaya": "13:12"
+  },
+  {
+   "dep": "13:07",
+   "arr_ichigaya": "13:18"
+  },
+  {
+   "dep": "13:13",
+   "arr_ichigaya": "13:24"
+  },
+  {
+   "dep": "13:19",
+   "arr_ichigaya": "13:30"
+  },
+  {
+   "dep": "13:25",
+   "arr_ichigaya": "13:36"
+  },
+  {
+   "dep": "13:31",
+   "arr_ichigaya": "13:42"
+  },
+  {
+   "dep": "13:37",
+   "arr_ichigaya": "13:48"
+  },
+  {
+   "dep": "13:43",
+   "arr_ichigaya": "13:54"
+  },
+  {
+   "dep": "13:49",
+   "arr_ichigaya": "14:00"
+  },
+  {
+   "dep": "13:55",
+   "arr_ichigaya": "14:06"
+  },
+  {
+   "dep": "14:01",
+   "arr_ichigaya": "14:12"
+  },
+  {
+   "dep": "14:07",
+   "arr_ichigaya": "14:18"
+  },
+  {
+   "dep": "14:13",
+   "arr_ichigaya": "14:24"
+  },
+  {
+   "dep": "14:19",
+   "arr_ichigaya": "14:30"
+  },
+  {
+   "dep": "14:25",
+   "arr_ichigaya": "14:36"
+  },
+  {
+   "dep": "14:31",
+   "arr_ichigaya": "14:42"
+  },
+  {
+   "dep": "14:37",
+   "arr_ichigaya": "14:48"
+  },
+  {
+   "dep": "14:43",
+   "arr_ichigaya": "14:54"
+  },
+  {
+   "dep": "14:49",
+   "arr_ichigaya": "15:00"
+  },
+  {
+   "dep": "14:55",
+   "arr_ichigaya": "15:06"
+  },
+  {
+   "dep": "15:01",
+   "arr_ichigaya": "15:12"
+  },
+  {
+   "dep": "15:07",
+   "arr_ichigaya": "15:18"
+  },
+  {
+   "dep": "15:13",
+   "arr_ichigaya": "15:24"
+  },
+  {
+   "dep": "15:19",
+   "arr_ichigaya": "15:30"
+  },
+  {
+   "dep": "15:25",
+   "arr_ichigaya": "15:36"
+  },
+  {
+   "dep": "15:31",
+   "arr_ichigaya": "15:42"
+  },
+  {
+   "dep": "15:37",
+   "arr_ichigaya": "15:48"
+  },
+  {
+   "dep": "15:43",
+   "arr_ichigaya": "15:54"
+  },
+  {
+   "dep": "15:49",
+   "arr_ichigaya": "16:00"
+  },
+  {
+   "dep": "15:55",
+   "arr_ichigaya": "16:06"
+  },
+  {
+   "dep": "16:01",
+   "arr_ichigaya": "16:12"
+  },
+  {
+   "dep": "16:07",
+   "arr_ichigaya": "16:18"
+  },
+  {
+   "dep": "16:13",
+   "arr_ichigaya": "16:24"
+  },
+  {
+   "dep": "16:19",
+   "arr_ichigaya": "16:30"
+  },
+  {
+   "dep": "16:25",
+   "arr_ichigaya": "16:36"
+  },
+  {
+   "dep": "16:31",
+   "arr_ichigaya": "16:42"
+  },
+  {
+   "dep": "16:37",
+   "arr_ichigaya": "16:48"
+  },
+  {
+   "dep": "16:42",
+   "arr_ichigaya": "16:53"
+  },
+  {
+   "dep": "16:47",
+   "arr_ichigaya": "16:58"
+  },
+  {
+   "dep": "16:52",
+   "arr_ichigaya": "17:03"
+  },
+  {
+   "dep": "16:57",
+   "arr_ichigaya": "17:08"
+  },
+  {
+   "dep": "17:02",
+   "arr_ichigaya": "17:13"
+  },
+  {
+   "dep": "17:07",
+   "arr_ichigaya": "17:18"
+  },
+  {
+   "dep": "17:11",
+   "arr_ichigaya": "17:22"
+  },
+  {
+   "dep": "17:16",
+   "arr_ichigaya": "17:27"
+  },
+  {
+   "dep": "17:20",
+   "arr_ichigaya": "17:31"
+  },
+  {
+   "dep": "17:24",
+   "arr_ichigaya": "17:35"
+  },
+  {
+   "dep": "17:29",
+   "arr_ichigaya": "17:40"
+  },
+  {
+   "dep": "17:34",
+   "arr_ichigaya": "17:45"
+  },
+  {
+   "dep": "17:38",
+   "arr_ichigaya": "17:49"
+  },
+  {
+   "dep": "17:43",
+   "arr_ichigaya": "17:54"
+  },
+  {
+   "dep": "17:48",
+   "arr_ichigaya": "17:59"
+  },
+  {
+   "dep": "17:53",
+   "arr_ichigaya": "18:04"
+  },
+  {
+   "dep": "17:58",
+   "arr_ichigaya": "18:09"
+  },
+  {
+   "dep": "18:03",
+   "arr_ichigaya": "18:14"
+  },
+  {
+   "dep": "18:08",
+   "arr_ichigaya": "18:19"
+  },
+  {
+   "dep": "18:13",
+   "arr_ichigaya": "18:24"
+  },
+  {
+   "dep": "18:18",
+   "arr_ichigaya": "18:29"
+  },
+  {
+   "dep": "18:23",
+   "arr_ichigaya": "18:34"
+  },
+  {
+   "dep": "18:28",
+   "arr_ichigaya": "18:39"
+  },
+  {
+   "dep": "18:32",
+   "arr_ichigaya": "18:43"
+  },
+  {
+   "dep": "18:38",
+   "arr_ichigaya": "18:49"
+  },
+  {
+   "dep": "18:43",
+   "arr_ichigaya": "18:54"
+  },
+  {
+   "dep": "18:48",
+   "arr_ichigaya": "18:59"
+  },
+  {
+   "dep": "18:53",
+   "arr_ichigaya": "19:04"
+  },
+  {
+   "dep": "18:58",
+   "arr_ichigaya": "19:09"
+  },
+  {
+   "dep": "19:02",
+   "arr_ichigaya": "19:13"
+  },
+  {
+   "dep": "19:07",
+   "arr_ichigaya": "19:18"
+  },
+  {
+   "dep": "19:11",
+   "arr_ichigaya": "19:22"
+  },
+  {
+   "dep": "19:15",
+   "arr_ichigaya": "19:26"
+  },
+  {
+   "dep": "19:20",
+   "arr_ichigaya": "19:31"
+  },
+  {
+   "dep": "19:24",
+   "arr_ichigaya": "19:35"
+  },
+  {
+   "dep": "19:28",
+   "arr_ichigaya": "19:39"
+  },
+  {
+   "dep": "19:33",
+   "arr_ichigaya": "19:44"
+  },
+  {
+   "dep": "19:38",
+   "arr_ichigaya": "19:49"
+  },
+  {
+   "dep": "19:43",
+   "arr_ichigaya": "19:54"
+  },
+  {
+   "dep": "19:48",
+   "arr_ichigaya": "19:59"
+  },
+  {
+   "dep": "19:52",
+   "arr_ichigaya": "20:03"
+  },
+  {
+   "dep": "19:56",
+   "arr_ichigaya": "20:07"
+  },
+  {
+   "dep": "20:00",
+   "arr_ichigaya": "20:11"
+  },
+  {
+   "dep": "20:04",
+   "arr_ichigaya": "20:15"
+  },
+  {
+   "dep": "20:09",
+   "arr_ichigaya": "20:20"
+  },
+  {
+   "dep": "20:14",
+   "arr_ichigaya": "20:25"
+  },
+  {
+   "dep": "20:19",
+   "arr_ichigaya": "20:30"
+  },
+  {
+   "dep": "20:24",
+   "arr_ichigaya": "20:35"
+  },
+  {
+   "dep": "20:29",
+   "arr_ichigaya": "20:40"
+  },
+  {
+   "dep": "20:34",
+   "arr_ichigaya": "20:45"
+  },
+  {
+   "dep": "20:40",
+   "arr_ichigaya": "20:51"
+  },
+  {
+   "dep": "20:44",
+   "arr_ichigaya": "20:55"
+  },
+  {
+   "dep": "20:49",
+   "arr_ichigaya": "21:00"
+  },
+  {
+   "dep": "20:54",
+   "arr_ichigaya": "21:05"
+  },
+  {
+   "dep": "20:59",
+   "arr_ichigaya": "21:10"
+  },
+  {
+   "dep": "21:05",
+   "arr_ichigaya": "21:16"
+  },
+  {
+   "dep": "21:11",
+   "arr_ichigaya": "21:22"
+  },
+  {
+   "dep": "21:16",
+   "arr_ichigaya": "21:27"
+  },
+  {
+   "dep": "21:22",
+   "arr_ichigaya": "21:33"
+  },
+  {
+   "dep": "21:26",
+   "arr_ichigaya": "21:37"
+  },
+  {
+   "dep": "21:31",
+   "arr_ichigaya": "21:42"
+  },
+  {
+   "dep": "21:37",
+   "arr_ichigaya": "21:48"
+  },
+  {
+   "dep": "21:41",
+   "arr_ichigaya": "21:52"
+  },
+  {
+   "dep": "21:45",
+   "arr_ichigaya": "21:56"
+  },
+  {
+   "dep": "21:50",
+   "arr_ichigaya": "22:01"
+  },
+  {
+   "dep": "21:55",
+   "arr_ichigaya": "22:06"
+  },
+  {
+   "dep": "22:00",
+   "arr_ichigaya": "22:11"
+  },
+  {
+   "dep": "22:05",
+   "arr_ichigaya": "22:16"
+  },
+  {
+   "dep": "22:10",
+   "arr_ichigaya": "22:21"
+  },
+  {
+   "dep": "22:15",
+   "arr_ichigaya": "22:26"
+  },
+  {
+   "dep": "22:20",
+   "arr_ichigaya": "22:31"
+  },
+  {
+   "dep": "22:26",
+   "arr_ichigaya": "22:37"
+  },
+  {
+   "dep": "22:31",
+   "arr_ichigaya": "22:42"
+  },
+  {
+   "dep": "22:37",
+   "arr_ichigaya": "22:48"
+  },
+  {
+   "dep": "22:42",
+   "arr_ichigaya": "22:53"
+  },
+  {
+   "dep": "22:48",
+   "arr_ichigaya": "22:59"
+  },
+  {
+   "dep": "22:54",
+   "arr_ichigaya": "23:05"
+  },
+  {
+   "dep": "23:00",
+   "arr_ichigaya": "23:11"
+  },
+  {
+   "dep": "23:05",
+   "arr_ichigaya": "23:16"
+  },
+  {
+   "dep": "23:10",
+   "arr_ichigaya": "23:21"
+  },
+  {
+   "dep": "23:15",
+   "arr_ichigaya": "23:26"
+  },
+  {
+   "dep": "23:21",
+   "arr_ichigaya": "23:32"
+  },
+  {
+   "dep": "23:26",
+   "arr_ichigaya": "23:37"
+  },
+  {
+   "dep": "23:32",
+   "arr_ichigaya": "23:43"
+  },
+  {
+   "dep": "23:41",
+   "arr_ichigaya": "23:52"
+  },
+  {
+   "dep": "23:50",
+   "arr_ichigaya": "00:01"
+  },
+  {
+   "dep": "23:59",
+   "arr_ichigaya": "00:10"
+  }
+ ],
+ "saturday": [
+  {
+   "dep": "05:00",
+   "arr_ichigaya": "05:11"
+  },
+  {
+   "dep": "05:10",
+   "arr_ichigaya": "05:21"
+  },
+  {
+   "dep": "05:19",
+   "arr_ichigaya": "05:30"
+  },
+  {
+   "dep": "05:31",
+   "arr_ichigaya": "05:42"
+  },
+  {
+   "dep": "05:43",
+   "arr_ichigaya": "05:54"
+  },
+  {
+   "dep": "05:51",
+   "arr_ichigaya": "06:02"
+  },
+  {
+   "dep": "06:00",
+   "arr_ichigaya": "06:11"
+  },
+  {
+   "dep": "06:08",
+   "arr_ichigaya": "06:19"
+  },
+  {
+   "dep": "06:16",
+   "arr_ichigaya": "06:27"
+  },
+  {
+   "dep": "06:23",
+   "arr_ichigaya": "06:34"
+  },
+  {
+   "dep": "06:31",
+   "arr_ichigaya": "06:42"
+  },
+  {
+   "dep": "06:37",
+   "arr_ichigaya": "06:48"
+  },
+  {
+   "dep": "06:43",
+   "arr_ichigaya": "06:54"
+  },
+  {
+   "dep": "06:49",
+   "arr_ichigaya": "07:00"
+  },
+  {
+   "dep": "06:55",
+   "arr_ichigaya": "07:06"
+  },
+  {
+   "dep": "07:01",
+   "arr_ichigaya": "07:12"
+  },
+  {
+   "dep": "07:07",
+   "arr_ichigaya": "07:18"
+  },
+  {
+   "dep": "07:13",
+   "arr_ichigaya": "07:24"
+  },
+  {
+   "dep": "07:18",
+   "arr_ichigaya": "07:29"
+  },
+  {
+   "dep": "07:23",
+   "arr_ichigaya": "07:34"
+  },
+  {
+   "dep": "07:28",
+   "arr_ichigaya": "07:39"
+  },
+  {
+   "dep": "07:33",
+   "arr_ichigaya": "07:44"
+  },
+  {
+   "dep": "07:38",
+   "arr_ichigaya": "07:49"
+  },
+  {
+   "dep": "07:43",
+   "arr_ichigaya": "07:54"
+  },
+  {
+   "dep": "07:48",
+   "arr_ichigaya": "07:59"
+  },
+  {
+   "dep": "07:53",
+   "arr_ichigaya": "08:04"
+  },
+  {
+   "dep": "07:58",
+   "arr_ichigaya": "08:09"
+  },
+  {
+   "dep": "08:03",
+   "arr_ichigaya": "08:14"
+  },
+  {
+   "dep": "08:09",
+   "arr_ichigaya": "08:20"
+  },
+  {
+   "dep": "08:14",
+   "arr_ichigaya": "08:25"
+  },
+  {
+   "dep": "08:20",
+   "arr_ichigaya": "08:31"
+  },
+  {
+   "dep": "08:25",
+   "arr_ichigaya": "08:36"
+  },
+  {
+   "dep": "08:31",
+   "arr_ichigaya": "08:42"
+  },
+  {
+   "dep": "08:36",
+   "arr_ichigaya": "08:47"
+  },
+  {
+   "dep": "08:41",
+   "arr_ichigaya": "08:52"
+  },
+  {
+   "dep": "08:47",
+   "arr_ichigaya": "08:58"
+  },
+  {
+   "dep": "08:52",
+   "arr_ichigaya": "09:03"
+  },
+  {
+   "dep": "08:58",
+   "arr_ichigaya": "09:09"
+  },
+  {
+   "dep": "09:03",
+   "arr_ichigaya": "09:14"
+  },
+  {
+   "dep": "09:09",
+   "arr_ichigaya": "09:20"
+  },
+  {
+   "dep": "09:14",
+   "arr_ichigaya": "09:25"
+  },
+  {
+   "dep": "09:20",
+   "arr_ichigaya": "09:31"
+  },
+  {
+   "dep": "09:25",
+   "arr_ichigaya": "09:36"
+  },
+  {
+   "dep": "09:31",
+   "arr_ichigaya": "09:42"
+  },
+  {
+   "dep": "09:37",
+   "arr_ichigaya": "09:48"
+  },
+  {
+   "dep": "09:43",
+   "arr_ichigaya": "09:54"
+  },
+  {
+   "dep": "09:49",
+   "arr_ichigaya": "10:00"
+  },
+  {
+   "dep": "09:55",
+   "arr_ichigaya": "10:06"
+  },
+  {
+   "dep": "10:00",
+   "arr_ichigaya": "10:11"
+  },
+  {
+   "dep": "10:06",
+   "arr_ichigaya": "10:17"
+  },
+  {
+   "dep": "10:12",
+   "arr_ichigaya": "10:23"
+  },
+  {
+   "dep": "10:17",
+   "arr_ichigaya": "10:28"
+  },
+  {
+   "dep": "10:22",
+   "arr_ichigaya": "10:33"
+  },
+  {
+   "dep": "10:27",
+   "arr_ichigaya": "10:38"
+  },
+  {
+   "dep": "10:32",
+   "arr_ichigaya": "10:43"
+  },
+  {
+   "dep": "10:37",
+   "arr_ichigaya": "10:48"
+  },
+  {
+   "dep": "10:43",
+   "arr_ichigaya": "10:54"
+  },
+  {
+   "dep": "10:49",
+   "arr_ichigaya": "11:00"
+  },
+  {
+   "dep": "10:55",
+   "arr_ichigaya": "11:06"
+  },
+  {
+   "dep": "11:01",
+   "arr_ichigaya": "11:12"
+  },
+  {
+   "dep": "11:07",
+   "arr_ichigaya": "11:18"
+  },
+  {
+   "dep": "11:13",
+   "arr_ichigaya": "11:24"
+  },
+  {
+   "dep": "11:19",
+   "arr_ichigaya": "11:30"
+  },
+  {
+   "dep": "11:25",
+   "arr_ichigaya": "11:36"
+  },
+  {
+   "dep": "11:31",
+   "arr_ichigaya": "11:42"
+  },
+  {
+   "dep": "11:37",
+   "arr_ichigaya": "11:48"
+  },
+  {
+   "dep": "11:43",
+   "arr_ichigaya": "11:54"
+  },
+  {
+   "dep": "11:49",
+   "arr_ichigaya": "12:00"
+  },
+  {
+   "dep": "11:55",
+   "arr_ichigaya": "12:06"
+  },
+  {
+   "dep": "12:01",
+   "arr_ichigaya": "12:12"
+  },
+  {
+   "dep": "12:07",
+   "arr_ichigaya": "12:18"
+  },
+  {
+   "dep": "12:13",
+   "arr_ichigaya": "12:24"
+  },
+  {
+   "dep": "12:19",
+   "arr_ichigaya": "12:30"
+  },
+  {
+   "dep": "12:25",
+   "arr_ichigaya": "12:36"
+  },
+  {
+   "dep": "12:31",
+   "arr_ichigaya": "12:42"
+  },
+  {
+   "dep": "12:37",
+   "arr_ichigaya": "12:48"
+  },
+  {
+   "dep": "12:43",
+   "arr_ichigaya": "12:54"
+  },
+  {
+   "dep": "12:49",
+   "arr_ichigaya": "13:00"
+  },
+  {
+   "dep": "12:55",
+   "arr_ichigaya": "13:06"
+  },
+  {
+   "dep": "13:01",
+   "arr_ichigaya": "13:12"
+  },
+  {
+   "dep": "13:07",
+   "arr_ichigaya": "13:18"
+  },
+  {
+   "dep": "13:13",
+   "arr_ichigaya": "13:24"
+  },
+  {
+   "dep": "13:19",
+   "arr_ichigaya": "13:30"
+  },
+  {
+   "dep": "13:25",
+   "arr_ichigaya": "13:36"
+  },
+  {
+   "dep": "13:31",
+   "arr_ichigaya": "13:42"
+  },
+  {
+   "dep": "13:37",
+   "arr_ichigaya": "13:48"
+  },
+  {
+   "dep": "13:43",
+   "arr_ichigaya": "13:54"
+  },
+  {
+   "dep": "13:49",
+   "arr_ichigaya": "14:00"
+  },
+  {
+   "dep": "13:55",
+   "arr_ichigaya": "14:06"
+  },
+  {
+   "dep": "14:01",
+   "arr_ichigaya": "14:12"
+  },
+  {
+   "dep": "14:07",
+   "arr_ichigaya": "14:18"
+  },
+  {
+   "dep": "14:13",
+   "arr_ichigaya": "14:24"
+  },
+  {
+   "dep": "14:19",
+   "arr_ichigaya": "14:30"
+  },
+  {
+   "dep": "14:25",
+   "arr_ichigaya": "14:36"
+  },
+  {
+   "dep": "14:31",
+   "arr_ichigaya": "14:42"
+  },
+  {
+   "dep": "14:37",
+   "arr_ichigaya": "14:48"
+  },
+  {
+   "dep": "14:43",
+   "arr_ichigaya": "14:54"
+  },
+  {
+   "dep": "14:49",
+   "arr_ichigaya": "15:00"
+  },
+  {
+   "dep": "14:55",
+   "arr_ichigaya": "15:06"
+  },
+  {
+   "dep": "15:01",
+   "arr_ichigaya": "15:12"
+  },
+  {
+   "dep": "15:07",
+   "arr_ichigaya": "15:18"
+  },
+  {
+   "dep": "15:13",
+   "arr_ichigaya": "15:24"
+  },
+  {
+   "dep": "15:19",
+   "arr_ichigaya": "15:30"
+  },
+  {
+   "dep": "15:25",
+   "arr_ichigaya": "15:36"
+  },
+  {
+   "dep": "15:31",
+   "arr_ichigaya": "15:42"
+  },
+  {
+   "dep": "15:37",
+   "arr_ichigaya": "15:48"
+  },
+  {
+   "dep": "15:43",
+   "arr_ichigaya": "15:54"
+  },
+  {
+   "dep": "15:49",
+   "arr_ichigaya": "16:00"
+  },
+  {
+   "dep": "15:55",
+   "arr_ichigaya": "16:06"
+  },
+  {
+   "dep": "16:01",
+   "arr_ichigaya": "16:12"
+  },
+  {
+   "dep": "16:07",
+   "arr_ichigaya": "16:18"
+  },
+  {
+   "dep": "16:13",
+   "arr_ichigaya": "16:24"
+  },
+  {
+   "dep": "16:19",
+   "arr_ichigaya": "16:30"
+  },
+  {
+   "dep": "16:25",
+   "arr_ichigaya": "16:36"
+  },
+  {
+   "dep": "16:31",
+   "arr_ichigaya": "16:42"
+  },
+  {
+   "dep": "16:37",
+   "arr_ichigaya": "16:48"
+  },
+  {
+   "dep": "16:43",
+   "arr_ichigaya": "16:54"
+  },
+  {
+   "dep": "16:49",
+   "arr_ichigaya": "17:00"
+  },
+  {
+   "dep": "16:55",
+   "arr_ichigaya": "17:06"
+  },
+  {
+   "dep": "17:01",
+   "arr_ichigaya": "17:12"
+  },
+  {
+   "dep": "17:08",
+   "arr_ichigaya": "17:19"
+  },
+  {
+   "dep": "17:13",
+   "arr_ichigaya": "17:24"
+  },
+  {
+   "dep": "17:19",
+   "arr_ichigaya": "17:30"
+  },
+  {
+   "dep": "17:25",
+   "arr_ichigaya": "17:36"
+  },
+  {
+   "dep": "17:31",
+   "arr_ichigaya": "17:42"
+  },
+  {
+   "dep": "17:37",
+   "arr_ichigaya": "17:48"
+  },
+  {
+   "dep": "17:43",
+   "arr_ichigaya": "17:54"
+  },
+  {
+   "dep": "17:49",
+   "arr_ichigaya": "18:00"
+  },
+  {
+   "dep": "17:54",
+   "arr_ichigaya": "18:05"
+  },
+  {
+   "dep": "17:59",
+   "arr_ichigaya": "18:10"
+  },
+  {
+   "dep": "18:04",
+   "arr_ichigaya": "18:15"
+  },
+  {
+   "dep": "18:09",
+   "arr_ichigaya": "18:20"
+  },
+  {
+   "dep": "18:14",
+   "arr_ichigaya": "18:25"
+  },
+  {
+   "dep": "18:19",
+   "arr_ichigaya": "18:30"
+  },
+  {
+   "dep": "18:24",
+   "arr_ichigaya": "18:35"
+  },
+  {
+   "dep": "18:29",
+   "arr_ichigaya": "18:40"
+  },
+  {
+   "dep": "18:34",
+   "arr_ichigaya": "18:45"
+  },
+  {
+   "dep": "18:39",
+   "arr_ichigaya": "18:50"
+  },
+  {
+   "dep": "18:44",
+   "arr_ichigaya": "18:55"
+  },
+  {
+   "dep": "18:50",
+   "arr_ichigaya": "19:01"
+  },
+  {
+   "dep": "18:55",
+   "arr_ichigaya": "19:06"
+  },
+  {
+   "dep": "19:01",
+   "arr_ichigaya": "19:12"
+  },
+  {
+   "dep": "19:07",
+   "arr_ichigaya": "19:18"
+  },
+  {
+   "dep": "19:13",
+   "arr_ichigaya": "19:24"
+  },
+  {
+   "dep": "19:19",
+   "arr_ichigaya": "19:30"
+  },
+  {
+   "dep": "19:25",
+   "arr_ichigaya": "19:36"
+  },
+  {
+   "dep": "19:31",
+   "arr_ichigaya": "19:42"
+  },
+  {
+   "dep": "19:36",
+   "arr_ichigaya": "19:47"
+  },
+  {
+   "dep": "19:42",
+   "arr_ichigaya": "19:53"
+  },
+  {
+   "dep": "19:48",
+   "arr_ichigaya": "19:59"
+  },
+  {
+   "dep": "19:53",
+   "arr_ichigaya": "20:04"
+  },
+  {
+   "dep": "19:58",
+   "arr_ichigaya": "20:09"
+  },
+  {
+   "dep": "20:04",
+   "arr_ichigaya": "20:15"
+  },
+  {
+   "dep": "20:09",
+   "arr_ichigaya": "20:20"
+  },
+  {
+   "dep": "20:15",
+   "arr_ichigaya": "20:26"
+  },
+  {
+   "dep": "20:20",
+   "arr_ichigaya": "20:31"
+  },
+  {
+   "dep": "20:26",
+   "arr_ichigaya": "20:37"
+  },
+  {
+   "dep": "20:31",
+   "arr_ichigaya": "20:42"
+  },
+  {
+   "dep": "20:37",
+   "arr_ichigaya": "20:48"
+  },
+  {
+   "dep": "20:43",
+   "arr_ichigaya": "20:54"
+  },
+  {
+   "dep": "20:49",
+   "arr_ichigaya": "21:00"
+  },
+  {
+   "dep": "20:55",
+   "arr_ichigaya": "21:06"
+  },
+  {
+   "dep": "21:01",
+   "arr_ichigaya": "21:12"
+  },
+  {
+   "dep": "21:08",
+   "arr_ichigaya": "21:19"
+  },
+  {
+   "dep": "21:14",
+   "arr_ichigaya": "21:25"
+  },
+  {
+   "dep": "21:19",
+   "arr_ichigaya": "21:30"
+  },
+  {
+   "dep": "21:25",
+   "arr_ichigaya": "21:36"
+  },
+  {
+   "dep": "21:31",
+   "arr_ichigaya": "21:42"
+  },
+  {
+   "dep": "21:37",
+   "arr_ichigaya": "21:48"
+  },
+  {
+   "dep": "21:42",
+   "arr_ichigaya": "21:53"
+  },
+  {
+   "dep": "21:48",
+   "arr_ichigaya": "21:59"
+  },
+  {
+   "dep": "21:53",
+   "arr_ichigaya": "22:04"
+  },
+  {
+   "dep": "21:58",
+   "arr_ichigaya": "22:09"
+  },
+  {
+   "dep": "22:04",
+   "arr_ichigaya": "22:15"
+  },
+  {
+   "dep": "22:10",
+   "arr_ichigaya": "22:21"
+  },
+  {
+   "dep": "22:17",
+   "arr_ichigaya": "22:28"
+  },
+  {
+   "dep": "22:24",
+   "arr_ichigaya": "22:35"
+  },
+  {
+   "dep": "22:30",
+   "arr_ichigaya": "22:41"
+  },
+  {
+   "dep": "22:36",
+   "arr_ichigaya": "22:47"
+  },
+  {
+   "dep": "22:42",
+   "arr_ichigaya": "22:53"
+  },
+  {
+   "dep": "22:48",
+   "arr_ichigaya": "22:59"
+  },
+  {
+   "dep": "22:55",
+   "arr_ichigaya": "23:06"
+  },
+  {
+   "dep": "23:02",
+   "arr_ichigaya": "23:13"
+  },
+  {
+   "dep": "23:08",
+   "arr_ichigaya": "23:19"
+  },
+  {
+   "dep": "23:14",
+   "arr_ichigaya": "23:25"
+  },
+  {
+   "dep": "23:21",
+   "arr_ichigaya": "23:32"
+  },
+  {
+   "dep": "23:29",
+   "arr_ichigaya": "23:40"
+  },
+  {
+   "dep": "23:36",
+   "arr_ichigaya": "23:47"
+  },
+  {
+   "dep": "23:42",
+   "arr_ichigaya": "23:53"
+  },
+  {
+   "dep": "23:50",
+   "arr_ichigaya": "00:01"
+  },
+  {
+   "dep": "23:59",
+   "arr_ichigaya": "00:10"
+  }
+ ],
+ "holiday": [
+  {
+   "dep": "05:00",
+   "arr_ichigaya": "05:11"
+  },
+  {
+   "dep": "05:10",
+   "arr_ichigaya": "05:21"
+  },
+  {
+   "dep": "05:19",
+   "arr_ichigaya": "05:30"
+  },
+  {
+   "dep": "05:31",
+   "arr_ichigaya": "05:42"
+  },
+  {
+   "dep": "05:43",
+   "arr_ichigaya": "05:54"
+  },
+  {
+   "dep": "05:51",
+   "arr_ichigaya": "06:02"
+  },
+  {
+   "dep": "06:00",
+   "arr_ichigaya": "06:11"
+  },
+  {
+   "dep": "06:08",
+   "arr_ichigaya": "06:19"
+  },
+  {
+   "dep": "06:16",
+   "arr_ichigaya": "06:27"
+  },
+  {
+   "dep": "06:23",
+   "arr_ichigaya": "06:34"
+  },
+  {
+   "dep": "06:31",
+   "arr_ichigaya": "06:42"
+  },
+  {
+   "dep": "06:37",
+   "arr_ichigaya": "06:48"
+  },
+  {
+   "dep": "06:43",
+   "arr_ichigaya": "06:54"
+  },
+  {
+   "dep": "06:49",
+   "arr_ichigaya": "07:00"
+  },
+  {
+   "dep": "06:55",
+   "arr_ichigaya": "07:06"
+  },
+  {
+   "dep": "07:01",
+   "arr_ichigaya": "07:12"
+  },
+  {
+   "dep": "07:07",
+   "arr_ichigaya": "07:18"
+  },
+  {
+   "dep": "07:13",
+   "arr_ichigaya": "07:24"
+  },
+  {
+   "dep": "07:18",
+   "arr_ichigaya": "07:29"
+  },
+  {
+   "dep": "07:23",
+   "arr_ichigaya": "07:34"
+  },
+  {
+   "dep": "07:28",
+   "arr_ichigaya": "07:39"
+  },
+  {
+   "dep": "07:33",
+   "arr_ichigaya": "07:44"
+  },
+  {
+   "dep": "07:38",
+   "arr_ichigaya": "07:49"
+  },
+  {
+   "dep": "07:43",
+   "arr_ichigaya": "07:54"
+  },
+  {
+   "dep": "07:48",
+   "arr_ichigaya": "07:59"
+  },
+  {
+   "dep": "07:53",
+   "arr_ichigaya": "08:04"
+  },
+  {
+   "dep": "07:58",
+   "arr_ichigaya": "08:09"
+  },
+  {
+   "dep": "08:03",
+   "arr_ichigaya": "08:14"
+  },
+  {
+   "dep": "08:09",
+   "arr_ichigaya": "08:20"
+  },
+  {
+   "dep": "08:14",
+   "arr_ichigaya": "08:25"
+  },
+  {
+   "dep": "08:20",
+   "arr_ichigaya": "08:31"
+  },
+  {
+   "dep": "08:25",
+   "arr_ichigaya": "08:36"
+  },
+  {
+   "dep": "08:31",
+   "arr_ichigaya": "08:42"
+  },
+  {
+   "dep": "08:36",
+   "arr_ichigaya": "08:47"
+  },
+  {
+   "dep": "08:41",
+   "arr_ichigaya": "08:52"
+  },
+  {
+   "dep": "08:47",
+   "arr_ichigaya": "08:58"
+  },
+  {
+   "dep": "08:52",
+   "arr_ichigaya": "09:03"
+  },
+  {
+   "dep": "08:58",
+   "arr_ichigaya": "09:09"
+  },
+  {
+   "dep": "09:03",
+   "arr_ichigaya": "09:14"
+  },
+  {
+   "dep": "09:09",
+   "arr_ichigaya": "09:20"
+  },
+  {
+   "dep": "09:14",
+   "arr_ichigaya": "09:25"
+  },
+  {
+   "dep": "09:20",
+   "arr_ichigaya": "09:31"
+  },
+  {
+   "dep": "09:25",
+   "arr_ichigaya": "09:36"
+  },
+  {
+   "dep": "09:31",
+   "arr_ichigaya": "09:42"
+  },
+  {
+   "dep": "09:37",
+   "arr_ichigaya": "09:48"
+  },
+  {
+   "dep": "09:43",
+   "arr_ichigaya": "09:54"
+  },
+  {
+   "dep": "09:49",
+   "arr_ichigaya": "10:00"
+  },
+  {
+   "dep": "09:55",
+   "arr_ichigaya": "10:06"
+  },
+  {
+   "dep": "10:00",
+   "arr_ichigaya": "10:11"
+  },
+  {
+   "dep": "10:06",
+   "arr_ichigaya": "10:17"
+  },
+  {
+   "dep": "10:12",
+   "arr_ichigaya": "10:23"
+  },
+  {
+   "dep": "10:17",
+   "arr_ichigaya": "10:28"
+  },
+  {
+   "dep": "10:22",
+   "arr_ichigaya": "10:33"
+  },
+  {
+   "dep": "10:27",
+   "arr_ichigaya": "10:38"
+  },
+  {
+   "dep": "10:32",
+   "arr_ichigaya": "10:43"
+  },
+  {
+   "dep": "10:37",
+   "arr_ichigaya": "10:48"
+  },
+  {
+   "dep": "10:43",
+   "arr_ichigaya": "10:54"
+  },
+  {
+   "dep": "10:49",
+   "arr_ichigaya": "11:00"
+  },
+  {
+   "dep": "10:55",
+   "arr_ichigaya": "11:06"
+  },
+  {
+   "dep": "11:01",
+   "arr_ichigaya": "11:12"
+  },
+  {
+   "dep": "11:07",
+   "arr_ichigaya": "11:18"
+  },
+  {
+   "dep": "11:13",
+   "arr_ichigaya": "11:24"
+  },
+  {
+   "dep": "11:19",
+   "arr_ichigaya": "11:30"
+  },
+  {
+   "dep": "11:25",
+   "arr_ichigaya": "11:36"
+  },
+  {
+   "dep": "11:31",
+   "arr_ichigaya": "11:42"
+  },
+  {
+   "dep": "11:37",
+   "arr_ichigaya": "11:48"
+  },
+  {
+   "dep": "11:43",
+   "arr_ichigaya": "11:54"
+  },
+  {
+   "dep": "11:49",
+   "arr_ichigaya": "12:00"
+  },
+  {
+   "dep": "11:55",
+   "arr_ichigaya": "12:06"
+  },
+  {
+   "dep": "12:01",
+   "arr_ichigaya": "12:12"
+  },
+  {
+   "dep": "12:07",
+   "arr_ichigaya": "12:18"
+  },
+  {
+   "dep": "12:13",
+   "arr_ichigaya": "12:24"
+  },
+  {
+   "dep": "12:19",
+   "arr_ichigaya": "12:30"
+  },
+  {
+   "dep": "12:25",
+   "arr_ichigaya": "12:36"
+  },
+  {
+   "dep": "12:31",
+   "arr_ichigaya": "12:42"
+  },
+  {
+   "dep": "12:37",
+   "arr_ichigaya": "12:48"
+  },
+  {
+   "dep": "12:43",
+   "arr_ichigaya": "12:54"
+  },
+  {
+   "dep": "12:49",
+   "arr_ichigaya": "13:00"
+  },
+  {
+   "dep": "12:55",
+   "arr_ichigaya": "13:06"
+  },
+  {
+   "dep": "13:01",
+   "arr_ichigaya": "13:12"
+  },
+  {
+   "dep": "13:07",
+   "arr_ichigaya": "13:18"
+  },
+  {
+   "dep": "13:13",
+   "arr_ichigaya": "13:24"
+  },
+  {
+   "dep": "13:19",
+   "arr_ichigaya": "13:30"
+  },
+  {
+   "dep": "13:25",
+   "arr_ichigaya": "13:36"
+  },
+  {
+   "dep": "13:31",
+   "arr_ichigaya": "13:42"
+  },
+  {
+   "dep": "13:37",
+   "arr_ichigaya": "13:48"
+  },
+  {
+   "dep": "13:43",
+   "arr_ichigaya": "13:54"
+  },
+  {
+   "dep": "13:49",
+   "arr_ichigaya": "14:00"
+  },
+  {
+   "dep": "13:55",
+   "arr_ichigaya": "14:06"
+  },
+  {
+   "dep": "14:01",
+   "arr_ichigaya": "14:12"
+  },
+  {
+   "dep": "14:07",
+   "arr_ichigaya": "14:18"
+  },
+  {
+   "dep": "14:13",
+   "arr_ichigaya": "14:24"
+  },
+  {
+   "dep": "14:19",
+   "arr_ichigaya": "14:30"
+  },
+  {
+   "dep": "14:25",
+   "arr_ichigaya": "14:36"
+  },
+  {
+   "dep": "14:31",
+   "arr_ichigaya": "14:42"
+  },
+  {
+   "dep": "14:37",
+   "arr_ichigaya": "14:48"
+  },
+  {
+   "dep": "14:43",
+   "arr_ichigaya": "14:54"
+  },
+  {
+   "dep": "14:49",
+   "arr_ichigaya": "15:00"
+  },
+  {
+   "dep": "14:55",
+   "arr_ichigaya": "15:06"
+  },
+  {
+   "dep": "15:01",
+   "arr_ichigaya": "15:12"
+  },
+  {
+   "dep": "15:07",
+   "arr_ichigaya": "15:18"
+  },
+  {
+   "dep": "15:13",
+   "arr_ichigaya": "15:24"
+  },
+  {
+   "dep": "15:19",
+   "arr_ichigaya": "15:30"
+  },
+  {
+   "dep": "15:25",
+   "arr_ichigaya": "15:36"
+  },
+  {
+   "dep": "15:31",
+   "arr_ichigaya": "15:42"
+  },
+  {
+   "dep": "15:37",
+   "arr_ichigaya": "15:48"
+  },
+  {
+   "dep": "15:43",
+   "arr_ichigaya": "15:54"
+  },
+  {
+   "dep": "15:49",
+   "arr_ichigaya": "16:00"
+  },
+  {
+   "dep": "15:55",
+   "arr_ichigaya": "16:06"
+  },
+  {
+   "dep": "16:01",
+   "arr_ichigaya": "16:12"
+  },
+  {
+   "dep": "16:07",
+   "arr_ichigaya": "16:18"
+  },
+  {
+   "dep": "16:13",
+   "arr_ichigaya": "16:24"
+  },
+  {
+   "dep": "16:19",
+   "arr_ichigaya": "16:30"
+  },
+  {
+   "dep": "16:25",
+   "arr_ichigaya": "16:36"
+  },
+  {
+   "dep": "16:31",
+   "arr_ichigaya": "16:42"
+  },
+  {
+   "dep": "16:37",
+   "arr_ichigaya": "16:48"
+  },
+  {
+   "dep": "16:43",
+   "arr_ichigaya": "16:54"
+  },
+  {
+   "dep": "16:49",
+   "arr_ichigaya": "17:00"
+  },
+  {
+   "dep": "16:55",
+   "arr_ichigaya": "17:06"
+  },
+  {
+   "dep": "17:01",
+   "arr_ichigaya": "17:12"
+  },
+  {
+   "dep": "17:08",
+   "arr_ichigaya": "17:19"
+  },
+  {
+   "dep": "17:13",
+   "arr_ichigaya": "17:24"
+  },
+  {
+   "dep": "17:19",
+   "arr_ichigaya": "17:30"
+  },
+  {
+   "dep": "17:25",
+   "arr_ichigaya": "17:36"
+  },
+  {
+   "dep": "17:31",
+   "arr_ichigaya": "17:42"
+  },
+  {
+   "dep": "17:37",
+   "arr_ichigaya": "17:48"
+  },
+  {
+   "dep": "17:43",
+   "arr_ichigaya": "17:54"
+  },
+  {
+   "dep": "17:49",
+   "arr_ichigaya": "18:00"
+  },
+  {
+   "dep": "17:54",
+   "arr_ichigaya": "18:05"
+  },
+  {
+   "dep": "17:59",
+   "arr_ichigaya": "18:10"
+  },
+  {
+   "dep": "18:04",
+   "arr_ichigaya": "18:15"
+  },
+  {
+   "dep": "18:09",
+   "arr_ichigaya": "18:20"
+  },
+  {
+   "dep": "18:14",
+   "arr_ichigaya": "18:25"
+  },
+  {
+   "dep": "18:19",
+   "arr_ichigaya": "18:30"
+  },
+  {
+   "dep": "18:24",
+   "arr_ichigaya": "18:35"
+  },
+  {
+   "dep": "18:29",
+   "arr_ichigaya": "18:40"
+  },
+  {
+   "dep": "18:34",
+   "arr_ichigaya": "18:45"
+  },
+  {
+   "dep": "18:39",
+   "arr_ichigaya": "18:50"
+  },
+  {
+   "dep": "18:44",
+   "arr_ichigaya": "18:55"
+  },
+  {
+   "dep": "18:50",
+   "arr_ichigaya": "19:01"
+  },
+  {
+   "dep": "18:55",
+   "arr_ichigaya": "19:06"
+  },
+  {
+   "dep": "19:01",
+   "arr_ichigaya": "19:12"
+  },
+  {
+   "dep": "19:07",
+   "arr_ichigaya": "19:18"
+  },
+  {
+   "dep": "19:13",
+   "arr_ichigaya": "19:24"
+  },
+  {
+   "dep": "19:19",
+   "arr_ichigaya": "19:30"
+  },
+  {
+   "dep": "19:25",
+   "arr_ichigaya": "19:36"
+  },
+  {
+   "dep": "19:31",
+   "arr_ichigaya": "19:42"
+  },
+  {
+   "dep": "19:36",
+   "arr_ichigaya": "19:47"
+  },
+  {
+   "dep": "19:42",
+   "arr_ichigaya": "19:53"
+  },
+  {
+   "dep": "19:48",
+   "arr_ichigaya": "19:59"
+  },
+  {
+   "dep": "19:53",
+   "arr_ichigaya": "20:04"
+  },
+  {
+   "dep": "19:58",
+   "arr_ichigaya": "20:09"
+  },
+  {
+   "dep": "20:04",
+   "arr_ichigaya": "20:15"
+  },
+  {
+   "dep": "20:09",
+   "arr_ichigaya": "20:20"
+  },
+  {
+   "dep": "20:15",
+   "arr_ichigaya": "20:26"
+  },
+  {
+   "dep": "20:20",
+   "arr_ichigaya": "20:31"
+  },
+  {
+   "dep": "20:26",
+   "arr_ichigaya": "20:37"
+  },
+  {
+   "dep": "20:31",
+   "arr_ichigaya": "20:42"
+  },
+  {
+   "dep": "20:37",
+   "arr_ichigaya": "20:48"
+  },
+  {
+   "dep": "20:43",
+   "arr_ichigaya": "20:54"
+  },
+  {
+   "dep": "20:49",
+   "arr_ichigaya": "21:00"
+  },
+  {
+   "dep": "20:55",
+   "arr_ichigaya": "21:06"
+  },
+  {
+   "dep": "21:01",
+   "arr_ichigaya": "21:12"
+  },
+  {
+   "dep": "21:08",
+   "arr_ichigaya": "21:19"
+  },
+  {
+   "dep": "21:14",
+   "arr_ichigaya": "21:25"
+  },
+  {
+   "dep": "21:19",
+   "arr_ichigaya": "21:30"
+  },
+  {
+   "dep": "21:25",
+   "arr_ichigaya": "21:36"
+  },
+  {
+   "dep": "21:31",
+   "arr_ichigaya": "21:42"
+  },
+  {
+   "dep": "21:37",
+   "arr_ichigaya": "21:48"
+  },
+  {
+   "dep": "21:42",
+   "arr_ichigaya": "21:53"
+  },
+  {
+   "dep": "21:48",
+   "arr_ichigaya": "21:59"
+  },
+  {
+   "dep": "21:53",
+   "arr_ichigaya": "22:04"
+  },
+  {
+   "dep": "21:58",
+   "arr_ichigaya": "22:09"
+  },
+  {
+   "dep": "22:04",
+   "arr_ichigaya": "22:15"
+  },
+  {
+   "dep": "22:10",
+   "arr_ichigaya": "22:21"
+  },
+  {
+   "dep": "22:17",
+   "arr_ichigaya": "22:28"
+  },
+  {
+   "dep": "22:24",
+   "arr_ichigaya": "22:35"
+  },
+  {
+   "dep": "22:30",
+   "arr_ichigaya": "22:41"
+  },
+  {
+   "dep": "22:36",
+   "arr_ichigaya": "22:47"
+  },
+  {
+   "dep": "22:42",
+   "arr_ichigaya": "22:53"
+  },
+  {
+   "dep": "22:48",
+   "arr_ichigaya": "22:59"
+  },
+  {
+   "dep": "22:55",
+   "arr_ichigaya": "23:06"
+  },
+  {
+   "dep": "23:02",
+   "arr_ichigaya": "23:13"
+  },
+  {
+   "dep": "23:08",
+   "arr_ichigaya": "23:19"
+  },
+  {
+   "dep": "23:14",
+   "arr_ichigaya": "23:25"
+  },
+  {
+   "dep": "23:21",
+   "arr_ichigaya": "23:32"
+  },
+  {
+   "dep": "23:29",
+   "arr_ichigaya": "23:40"
+  },
+  {
+   "dep": "23:36",
+   "arr_ichigaya": "23:47"
+  },
+  {
+   "dep": "23:42",
+   "arr_ichigaya": "23:53"
+  },
+  {
+   "dep": "23:50",
+   "arr_ichigaya": "00:01"
+  },
+  {
+   "dep": "23:59",
+   "arr_ichigaya": "00:10"
+  }
+ ],
+ "_meta": {
+  "station": "池袋 (Ikebukuro)",
+  "line": "東京メトロ有楽町線 (Tokyo Metro Yurakucho Line)",
+  "direction": "新木場方面 (for Shin-Kiba, via Ichigaya)",
+  "note_direction_order": "Mirror of metro_ichigaya_up.json: this file is the down direction Ikebukuro -> Ichigaya. First train 05:00 (originates at Ikebukuro), last train 23:59 -> Ichigaya 00:10; there are no 00:xx departures from Ikebukuro in this direction.",
+  "departures_source": {
+   "weekday": "Ekitan (ekitan.com/timetable/railway/line-station/271-8/d2, 平日 table, diagram as of 2026-03-14), fetched 2026-11-25; cross-checked hour by hour against Yahoo!路線情報 (transit.yahoo.co.jp/timetable/22513/3341, JR時刻表 令和8年12月号 data) - identical; and against NAVITIME depArrTimeList Ikebukuro -> Ichigaya for Thu 2026-11-26, hours 07-23 - identical.",
+   "saturday": "Yahoo!路線情報 Saturday table (transit.yahoo.co.jp/timetable/22513/3341, date 2025-12-27 Sat), cross-checked against NAVITIME depArrTimeList for Sat 2026-11-28, hours 08-17 - identical, and against the Ekitan Saturday table shown in search index - identical.",
+   "holiday": "Yahoo!路線情報 Sunday/holiday table (same page, date 2026-03-01 Sun); verified identical to the Saturday list entry by entry, so saturday and holiday share one list."
+  },
+  "official_page_note": "As with the sister file, departures were taken from Ekitan / Yahoo!路線情報 / NAVITIME pages that republish the official Tokyo Metro diagram (current revision 2026-03-14 per Ekitan), not from a stale crawl: every page above was fetched live on 2026-11-25. Trains marked ◆ (特定日運転) on Yahoo (weekday 18:38; Sat/holiday daytime :07/:37 past the hour) are included as regular trains - NAVITIME depArrTimeList confirms they run on ordinary days (e.g. Thu 2026-11-26 18:38, Sat 2026-11-28 12:07 and 12:37).",
+  "running_time_min": {
+   "to_ichigaya": 11
+  },
+  "running_time_verification": "NAVITIME depArrTimeList Ikebukuro -> Ichigaya measured on 2026-11-25 for Thu 2026-11-26 (weekday) and Sat 2026-11-28, per-train scheduled times. Weekday: 11 min for virtually all trains 10:00-17:59 and 11 min standard off-peak; morning peak is slower in this (down) direction - 07:00 hour 12-14 min (mostly 13-14), 08:00 hour almost all 14 min, 09:00 hour declining 14 -> 11 min; evening/night 18:00-23:59 mixed 11-12 min. Saturday: 11-12 min all day, no peak inflation (08:00 hour 11-12). Route-search samples agree (06:08 -> 06:19 = 11 min; 23:00 -> 23:11 = 11 min). Fixed value adopted for all trains: Ichigaya +11 min, the same off-peak standard and the same convention as the up-direction sister file.",
+  "arrival_accuracy": "arr_ichigaya is computed as dep + 11 min, not per-train scheduled arrivals. Expected deviation vs the real scheduled arrival: 0 min off-peak and midday; up to +1 min later than shown in the evening/night and on weekends; up to +3 min later than shown on weekday morning-peak trains (07:00-09:30 departures, where scheduled running time is 12-14 min). If this file feeds a tight onward connection, allow at least a 3 min extra buffer for weekday 07:00-09:30 departures.",
+  "counts": {
+   "weekday": 225,
+   "saturday": 191,
+   "holiday": 191
+  },
+  "extracted_at": "2026-11-25"
+ }
+}

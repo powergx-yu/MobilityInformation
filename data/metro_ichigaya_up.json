@@ -1,0 +1,3684 @@
+{
+ "weekday": [
+  {
+   "dep": "05:00",
+   "arr_kotake": "05:19",
+   "arr_ikebukuro": "05:11",
+   "dest": "和光市"
+  },
+  {
+   "dep": "05:20",
+   "arr_kotake": "05:39",
+   "arr_ikebukuro": "05:31",
+   "dest": "和光市"
+  },
+  {
+   "dep": "05:34",
+   "arr_kotake": "05:53",
+   "arr_ikebukuro": "05:45",
+   "dest": "川越市"
+  },
+  {
+   "dep": "05:42",
+   "arr_kotake": "06:01",
+   "arr_ikebukuro": "05:53",
+   "dest": "川越市"
+  },
+  {
+   "dep": "05:48",
+   "arr_kotake": "06:07",
+   "arr_ikebukuro": "05:59",
+   "dest": "小手指"
+  },
+  {
+   "dep": "05:55",
+   "arr_kotake": "06:14",
+   "arr_ikebukuro": "06:06",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:02",
+   "arr_kotake": "06:21",
+   "arr_ikebukuro": "06:13",
+   "dest": "小手指"
+  },
+  {
+   "dep": "06:09",
+   "arr_kotake": "06:28",
+   "arr_ikebukuro": "06:20",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:14",
+   "arr_kotake": "06:33",
+   "arr_ikebukuro": "06:25",
+   "dest": "保谷"
+  },
+  {
+   "dep": "06:19",
+   "arr_kotake": "06:38",
+   "arr_ikebukuro": "06:30",
+   "dest": "志木"
+  },
+  {
+   "dep": "06:25",
+   "arr_kotake": "06:44",
+   "arr_ikebukuro": "06:36",
+   "dest": "小手指"
+  },
+  {
+   "dep": "06:30",
+   "arr_kotake": "06:49",
+   "arr_ikebukuro": "06:41",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:34",
+   "arr_kotake": "06:53",
+   "arr_ikebukuro": "06:45",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:39",
+   "arr_kotake": "06:58",
+   "arr_ikebukuro": "06:50",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:45",
+   "arr_kotake": "07:04",
+   "arr_ikebukuro": "06:56",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:50",
+   "arr_kotake": "07:09",
+   "arr_ikebukuro": "07:01",
+   "dest": "小手指"
+  },
+  {
+   "dep": "06:55",
+   "arr_kotake": "07:14",
+   "arr_ikebukuro": "07:06",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:00",
+   "arr_kotake": "07:19",
+   "arr_ikebukuro": "07:11",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "07:05",
+   "arr_kotake": "07:24",
+   "arr_ikebukuro": "07:16",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:10",
+   "arr_kotake": "07:29",
+   "arr_ikebukuro": "07:21",
+   "dest": "所沢"
+  },
+  {
+   "dep": "07:15",
+   "arr_kotake": "07:34",
+   "arr_ikebukuro": "07:26",
+   "dest": "川越市"
+  },
+  {
+   "dep": "07:19",
+   "arr_kotake": "07:38",
+   "arr_ikebukuro": "07:30",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:23",
+   "arr_kotake": "07:42",
+   "arr_ikebukuro": "07:34",
+   "dest": "小手指"
+  },
+  {
+   "dep": "07:26",
+   "arr_kotake": "07:45",
+   "arr_ikebukuro": "07:37",
+   "dest": "川越市"
+  },
+  {
+   "dep": "07:30",
+   "arr_kotake": "07:49",
+   "arr_ikebukuro": "07:41",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:33",
+   "arr_kotake": "07:52",
+   "arr_ikebukuro": "07:44",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "07:37",
+   "arr_kotake": "07:56",
+   "arr_ikebukuro": "07:48",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:41",
+   "arr_kotake": "08:00",
+   "arr_ikebukuro": "07:52",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:45",
+   "arr_kotake": "08:04",
+   "arr_ikebukuro": "07:56",
+   "dest": "池袋"
+  },
+  {
+   "dep": "07:49",
+   "arr_kotake": "08:08",
+   "arr_ikebukuro": "08:00",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:53",
+   "arr_kotake": "08:12",
+   "arr_ikebukuro": "08:04",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "07:57",
+   "arr_kotake": "08:16",
+   "arr_ikebukuro": "08:08",
+   "dest": "川越市"
+  },
+  {
+   "dep": "08:01",
+   "arr_kotake": "08:20",
+   "arr_ikebukuro": "08:12",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:05",
+   "arr_kotake": "08:24",
+   "arr_ikebukuro": "08:16",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:09",
+   "arr_kotake": "08:28",
+   "arr_ikebukuro": "08:20",
+   "dest": "小手指"
+  },
+  {
+   "dep": "08:13",
+   "arr_kotake": "08:32",
+   "arr_ikebukuro": "08:24",
+   "dest": "川越市"
+  },
+  {
+   "dep": "08:17",
+   "arr_kotake": "08:36",
+   "arr_ikebukuro": "08:28",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:21",
+   "arr_kotake": "08:40",
+   "arr_ikebukuro": "08:32",
+   "dest": "池袋"
+  },
+  {
+   "dep": "08:25",
+   "arr_kotake": "08:44",
+   "arr_ikebukuro": "08:36",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:29",
+   "arr_kotake": "08:48",
+   "arr_ikebukuro": "08:40",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "08:33",
+   "arr_kotake": "08:52",
+   "arr_ikebukuro": "08:44",
+   "dest": "志木"
+  },
+  {
+   "dep": "08:37",
+   "arr_kotake": "08:56",
+   "arr_ikebukuro": "08:48",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:41",
+   "arr_kotake": "09:00",
+   "arr_ikebukuro": "08:52",
+   "dest": "川越市"
+  },
+  {
+   "dep": "08:45",
+   "arr_kotake": "09:04",
+   "arr_ikebukuro": "08:56",
+   "dest": "小手指"
+  },
+  {
+   "dep": "08:49",
+   "arr_kotake": "09:08",
+   "arr_ikebukuro": "09:00",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:53",
+   "arr_kotake": "09:12",
+   "arr_ikebukuro": "09:04",
+   "dest": "小手指"
+  },
+  {
+   "dep": "08:57",
+   "arr_kotake": "09:16",
+   "arr_ikebukuro": "09:08",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "09:01",
+   "arr_kotake": "09:20",
+   "arr_ikebukuro": "09:12",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:06",
+   "arr_kotake": "09:25",
+   "arr_ikebukuro": "09:17",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:10",
+   "arr_kotake": "09:29",
+   "arr_ikebukuro": "09:21",
+   "dest": "川越市"
+  },
+  {
+   "dep": "09:15",
+   "arr_kotake": "09:34",
+   "arr_ikebukuro": "09:26",
+   "dest": "小手指"
+  },
+  {
+   "dep": "09:19",
+   "arr_kotake": "09:38",
+   "arr_ikebukuro": "09:30",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:23",
+   "arr_kotake": "09:42",
+   "arr_ikebukuro": "09:34",
+   "dest": "小手指"
+  },
+  {
+   "dep": "09:27",
+   "arr_kotake": "09:46",
+   "arr_ikebukuro": "09:38",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "09:30",
+   "arr_kotake": "09:49",
+   "arr_ikebukuro": "09:41",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "09:34",
+   "arr_kotake": "09:53",
+   "arr_ikebukuro": "09:45",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "09:37",
+   "arr_kotake": "09:56",
+   "arr_ikebukuro": "09:48",
+   "dest": "池袋"
+  },
+  {
+   "dep": "09:40",
+   "arr_kotake": "09:59",
+   "arr_ikebukuro": "09:51",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:44",
+   "arr_kotake": "10:03",
+   "arr_ikebukuro": "09:55",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:48",
+   "arr_kotake": "10:07",
+   "arr_ikebukuro": "09:59",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:53",
+   "arr_kotake": "10:12",
+   "arr_ikebukuro": "10:04",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "09:58",
+   "arr_kotake": "10:17",
+   "arr_ikebukuro": "10:09",
+   "dest": "川越市"
+  },
+  {
+   "dep": "10:03",
+   "arr_kotake": "10:22",
+   "arr_ikebukuro": "10:14",
+   "dest": "所沢"
+  },
+  {
+   "dep": "10:07",
+   "arr_kotake": "10:26",
+   "arr_ikebukuro": "10:18",
+   "dest": "和光市"
+  },
+  {
+   "dep": "10:12",
+   "arr_kotake": "10:31",
+   "arr_ikebukuro": "10:23",
+   "dest": "小手指"
+  },
+  {
+   "dep": "10:17",
+   "arr_kotake": "10:36",
+   "arr_ikebukuro": "10:28",
+   "dest": "和光市"
+  },
+  {
+   "dep": "10:22",
+   "arr_kotake": "10:41",
+   "arr_ikebukuro": "10:33",
+   "dest": "川越市"
+  },
+  {
+   "dep": "10:27",
+   "arr_kotake": "10:46",
+   "arr_ikebukuro": "10:38",
+   "dest": "保谷"
+  },
+  {
+   "dep": "10:31",
+   "arr_kotake": "10:50",
+   "arr_ikebukuro": "10:42",
+   "dest": "和光市"
+  },
+  {
+   "dep": "10:36",
+   "arr_kotake": "10:55",
+   "arr_ikebukuro": "10:47",
+   "dest": "和光市"
+  },
+  {
+   "dep": "10:41",
+   "arr_kotake": "11:00",
+   "arr_ikebukuro": "10:52",
+   "dest": "小手指"
+  },
+  {
+   "dep": "10:46",
+   "arr_kotake": "11:05",
+   "arr_ikebukuro": "10:57",
+   "dest": "和光市"
+  },
+  {
+   "dep": "10:51",
+   "arr_kotake": "11:10",
+   "arr_ikebukuro": "11:02",
+   "dest": "川越市"
+  },
+  {
+   "dep": "10:56",
+   "arr_kotake": "11:15",
+   "arr_ikebukuro": "11:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "11:02",
+   "arr_kotake": "11:21",
+   "arr_ikebukuro": "11:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "11:08",
+   "arr_kotake": "11:27",
+   "arr_ikebukuro": "11:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "11:14",
+   "arr_kotake": "11:33",
+   "arr_ikebukuro": "11:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "11:20",
+   "arr_kotake": "11:39",
+   "arr_ikebukuro": "11:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "11:26",
+   "arr_kotake": "11:45",
+   "arr_ikebukuro": "11:37",
+   "dest": "保谷"
+  },
+  {
+   "dep": "11:32",
+   "arr_kotake": "11:51",
+   "arr_ikebukuro": "11:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "11:38",
+   "arr_kotake": "11:57",
+   "arr_ikebukuro": "11:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "11:44",
+   "arr_kotake": "12:03",
+   "arr_ikebukuro": "11:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "11:50",
+   "arr_kotake": "12:09",
+   "arr_ikebukuro": "12:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "11:56",
+   "arr_kotake": "12:15",
+   "arr_ikebukuro": "12:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "12:02",
+   "arr_kotake": "12:21",
+   "arr_ikebukuro": "12:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "12:08",
+   "arr_kotake": "12:27",
+   "arr_ikebukuro": "12:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "12:14",
+   "arr_kotake": "12:33",
+   "arr_ikebukuro": "12:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "12:20",
+   "arr_kotake": "12:39",
+   "arr_ikebukuro": "12:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "12:26",
+   "arr_kotake": "12:45",
+   "arr_ikebukuro": "12:37",
+   "dest": "保谷"
+  },
+  {
+   "dep": "12:32",
+   "arr_kotake": "12:51",
+   "arr_ikebukuro": "12:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "12:38",
+   "arr_kotake": "12:57",
+   "arr_ikebukuro": "12:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "12:44",
+   "arr_kotake": "13:03",
+   "arr_ikebukuro": "12:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "12:50",
+   "arr_kotake": "13:09",
+   "arr_ikebukuro": "13:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "12:56",
+   "arr_kotake": "13:15",
+   "arr_ikebukuro": "13:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "13:02",
+   "arr_kotake": "13:21",
+   "arr_ikebukuro": "13:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "13:08",
+   "arr_kotake": "13:27",
+   "arr_ikebukuro": "13:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "13:14",
+   "arr_kotake": "13:33",
+   "arr_ikebukuro": "13:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "13:20",
+   "arr_kotake": "13:39",
+   "arr_ikebukuro": "13:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "13:26",
+   "arr_kotake": "13:45",
+   "arr_ikebukuro": "13:37",
+   "dest": "保谷"
+  },
+  {
+   "dep": "13:32",
+   "arr_kotake": "13:51",
+   "arr_ikebukuro": "13:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "13:38",
+   "arr_kotake": "13:57",
+   "arr_ikebukuro": "13:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "13:44",
+   "arr_kotake": "14:03",
+   "arr_ikebukuro": "13:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "13:50",
+   "arr_kotake": "14:09",
+   "arr_ikebukuro": "14:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "13:56",
+   "arr_kotake": "14:15",
+   "arr_ikebukuro": "14:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "14:02",
+   "arr_kotake": "14:21",
+   "arr_ikebukuro": "14:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "14:08",
+   "arr_kotake": "14:27",
+   "arr_ikebukuro": "14:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "14:14",
+   "arr_kotake": "14:33",
+   "arr_ikebukuro": "14:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "14:20",
+   "arr_kotake": "14:39",
+   "arr_ikebukuro": "14:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "14:26",
+   "arr_kotake": "14:45",
+   "arr_ikebukuro": "14:37",
+   "dest": "保谷"
+  },
+  {
+   "dep": "14:32",
+   "arr_kotake": "14:51",
+   "arr_ikebukuro": "14:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "14:38",
+   "arr_kotake": "14:57",
+   "arr_ikebukuro": "14:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "14:44",
+   "arr_kotake": "15:03",
+   "arr_ikebukuro": "14:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "14:50",
+   "arr_kotake": "15:09",
+   "arr_ikebukuro": "15:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "14:56",
+   "arr_kotake": "15:15",
+   "arr_ikebukuro": "15:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "15:02",
+   "arr_kotake": "15:21",
+   "arr_ikebukuro": "15:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "15:08",
+   "arr_kotake": "15:27",
+   "arr_ikebukuro": "15:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "15:14",
+   "arr_kotake": "15:33",
+   "arr_ikebukuro": "15:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "15:20",
+   "arr_kotake": "15:39",
+   "arr_ikebukuro": "15:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "15:26",
+   "arr_kotake": "15:45",
+   "arr_ikebukuro": "15:37",
+   "dest": "保谷"
+  },
+  {
+   "dep": "15:32",
+   "arr_kotake": "15:51",
+   "arr_ikebukuro": "15:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "15:38",
+   "arr_kotake": "15:57",
+   "arr_ikebukuro": "15:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "15:44",
+   "arr_kotake": "16:03",
+   "arr_ikebukuro": "15:55",
+   "dest": "所沢"
+  },
+  {
+   "dep": "15:50",
+   "arr_kotake": "16:09",
+   "arr_ikebukuro": "16:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "15:56",
+   "arr_kotake": "16:15",
+   "arr_ikebukuro": "16:07",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "16:02",
+   "arr_kotake": "16:21",
+   "arr_ikebukuro": "16:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "16:08",
+   "arr_kotake": "16:27",
+   "arr_ikebukuro": "16:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "16:14",
+   "arr_kotake": "16:33",
+   "arr_ikebukuro": "16:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "16:20",
+   "arr_kotake": "16:39",
+   "arr_ikebukuro": "16:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "16:26",
+   "arr_kotake": "16:45",
+   "arr_ikebukuro": "16:37",
+   "dest": "所沢"
+  },
+  {
+   "dep": "16:32",
+   "arr_kotake": "16:51",
+   "arr_ikebukuro": "16:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "16:38",
+   "arr_kotake": "16:57",
+   "arr_ikebukuro": "16:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "16:44",
+   "arr_kotake": "17:03",
+   "arr_ikebukuro": "16:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "16:50",
+   "arr_kotake": "17:09",
+   "arr_ikebukuro": "17:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "16:55",
+   "arr_kotake": "17:14",
+   "arr_ikebukuro": "17:06",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:00",
+   "arr_kotake": "17:19",
+   "arr_ikebukuro": "17:11",
+   "dest": "小手指"
+  },
+  {
+   "dep": "17:05",
+   "arr_kotake": "17:24",
+   "arr_ikebukuro": "17:16",
+   "dest": "川越市"
+  },
+  {
+   "dep": "17:10",
+   "arr_kotake": "17:29",
+   "arr_ikebukuro": "17:21",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "17:16",
+   "arr_kotake": "17:35",
+   "arr_ikebukuro": "17:27",
+   "dest": "川越市"
+  },
+  {
+   "dep": "17:21",
+   "arr_kotake": "17:40",
+   "arr_ikebukuro": "17:32",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:26",
+   "arr_kotake": "17:45",
+   "arr_ikebukuro": "17:37",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "17:31",
+   "arr_kotake": "17:50",
+   "arr_ikebukuro": "17:42",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:36",
+   "arr_kotake": "17:55",
+   "arr_ikebukuro": "17:47",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:41",
+   "arr_kotake": "18:00",
+   "arr_ikebukuro": "17:52",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "17:46",
+   "arr_kotake": "18:05",
+   "arr_ikebukuro": "17:57",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:51",
+   "arr_kotake": "18:10",
+   "arr_ikebukuro": "18:02",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "17:55",
+   "arr_kotake": "18:14",
+   "arr_ikebukuro": "18:06",
+   "dest": "川越市"
+  },
+  {
+   "dep": "18:00",
+   "arr_kotake": "18:19",
+   "arr_ikebukuro": "18:11",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "18:04",
+   "arr_kotake": "18:23",
+   "arr_ikebukuro": "18:15",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:08",
+   "arr_kotake": "18:27",
+   "arr_ikebukuro": "18:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:13",
+   "arr_kotake": "18:32",
+   "arr_ikebukuro": "18:24",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:17",
+   "arr_kotake": "18:36",
+   "arr_ikebukuro": "18:28",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:21",
+   "arr_kotake": "18:40",
+   "arr_ikebukuro": "18:32",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "18:25",
+   "arr_kotake": "18:44",
+   "arr_ikebukuro": "18:36",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:30",
+   "arr_kotake": "18:49",
+   "arr_ikebukuro": "18:41",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "18:34",
+   "arr_kotake": "18:53",
+   "arr_ikebukuro": "18:45",
+   "dest": "志木"
+  },
+  {
+   "dep": "18:37",
+   "arr_kotake": "18:56",
+   "arr_ikebukuro": "18:48",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:41",
+   "arr_kotake": "19:00",
+   "arr_ikebukuro": "18:52",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "18:46",
+   "arr_kotake": "19:05",
+   "arr_ikebukuro": "18:57",
+   "dest": "保谷"
+  },
+  {
+   "dep": "18:50",
+   "arr_kotake": "19:09",
+   "arr_ikebukuro": "19:01",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:53",
+   "arr_kotake": "19:12",
+   "arr_ikebukuro": "19:04",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:56",
+   "arr_kotake": "19:15",
+   "arr_ikebukuro": "19:07",
+   "dest": "川越市"
+  },
+  {
+   "dep": "19:00",
+   "arr_kotake": "19:19",
+   "arr_ikebukuro": "19:11",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "19:04",
+   "arr_kotake": "19:23",
+   "arr_ikebukuro": "19:15",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:08",
+   "arr_kotake": "19:27",
+   "arr_ikebukuro": "19:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:11",
+   "arr_kotake": "19:30",
+   "arr_ikebukuro": "19:22",
+   "dest": "川越市"
+  },
+  {
+   "dep": "19:15",
+   "arr_kotake": "19:34",
+   "arr_ikebukuro": "19:26",
+   "dest": "保谷"
+  },
+  {
+   "dep": "19:20",
+   "arr_kotake": "19:39",
+   "arr_ikebukuro": "19:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "19:24",
+   "arr_kotake": "19:43",
+   "arr_ikebukuro": "19:35",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:28",
+   "arr_kotake": "19:47",
+   "arr_ikebukuro": "19:39",
+   "dest": "川越市"
+  },
+  {
+   "dep": "19:32",
+   "arr_kotake": "19:51",
+   "arr_ikebukuro": "19:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:36",
+   "arr_kotake": "19:55",
+   "arr_ikebukuro": "19:47",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:40",
+   "arr_kotake": "19:59",
+   "arr_ikebukuro": "19:51",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:47",
+   "arr_kotake": "20:06",
+   "arr_ikebukuro": "19:58",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "19:50",
+   "arr_kotake": "20:09",
+   "arr_ikebukuro": "20:01",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:54",
+   "arr_kotake": "20:13",
+   "arr_ikebukuro": "20:05",
+   "dest": "川越市"
+  },
+  {
+   "dep": "19:58",
+   "arr_kotake": "20:17",
+   "arr_ikebukuro": "20:09",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "20:02",
+   "arr_kotake": "20:21",
+   "arr_ikebukuro": "20:13",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "20:07",
+   "arr_kotake": "20:26",
+   "arr_ikebukuro": "20:18",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:11",
+   "arr_kotake": "20:30",
+   "arr_ikebukuro": "20:22",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:16",
+   "arr_kotake": "20:35",
+   "arr_ikebukuro": "20:27",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "20:21",
+   "arr_kotake": "20:40",
+   "arr_ikebukuro": "20:32",
+   "dest": "志木"
+  },
+  {
+   "dep": "20:26",
+   "arr_kotake": "20:45",
+   "arr_ikebukuro": "20:37",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "20:31",
+   "arr_kotake": "20:50",
+   "arr_ikebukuro": "20:42",
+   "dest": "川越市"
+  },
+  {
+   "dep": "20:36",
+   "arr_kotake": "20:55",
+   "arr_ikebukuro": "20:47",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:40",
+   "arr_kotake": "20:59",
+   "arr_ikebukuro": "20:51",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "20:47",
+   "arr_kotake": "21:06",
+   "arr_ikebukuro": "20:58",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "20:51",
+   "arr_kotake": "21:10",
+   "arr_ikebukuro": "21:02",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:56",
+   "arr_kotake": "21:15",
+   "arr_ikebukuro": "21:07",
+   "dest": "志木"
+  },
+  {
+   "dep": "21:00",
+   "arr_kotake": "21:19",
+   "arr_ikebukuro": "21:11",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:05",
+   "arr_kotake": "21:24",
+   "arr_ikebukuro": "21:16",
+   "dest": "小手指"
+  },
+  {
+   "dep": "21:11",
+   "arr_kotake": "21:30",
+   "arr_ikebukuro": "21:22",
+   "dest": "川越市"
+  },
+  {
+   "dep": "21:16",
+   "arr_kotake": "21:35",
+   "arr_ikebukuro": "21:27",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:21",
+   "arr_kotake": "21:40",
+   "arr_ikebukuro": "21:32",
+   "dest": "保谷"
+  },
+  {
+   "dep": "21:26",
+   "arr_kotake": "21:45",
+   "arr_ikebukuro": "21:37",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:32",
+   "arr_kotake": "21:51",
+   "arr_ikebukuro": "21:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:36",
+   "arr_kotake": "21:55",
+   "arr_ikebukuro": "21:47",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "21:41",
+   "arr_kotake": "22:00",
+   "arr_ikebukuro": "21:52",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "21:47",
+   "arr_kotake": "22:06",
+   "arr_ikebukuro": "21:58",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:52",
+   "arr_kotake": "22:11",
+   "arr_ikebukuro": "22:03",
+   "dest": "川越市"
+  },
+  {
+   "dep": "21:58",
+   "arr_kotake": "22:17",
+   "arr_ikebukuro": "22:09",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "22:03",
+   "arr_kotake": "22:22",
+   "arr_ikebukuro": "22:14",
+   "dest": "和光市"
+  },
+  {
+   "dep": "22:09",
+   "arr_kotake": "22:28",
+   "arr_ikebukuro": "22:20",
+   "dest": "和光市"
+  },
+  {
+   "dep": "22:14",
+   "arr_kotake": "22:33",
+   "arr_ikebukuro": "22:25",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "22:19",
+   "arr_kotake": "22:38",
+   "arr_ikebukuro": "22:30",
+   "dest": "和光市"
+  },
+  {
+   "dep": "22:24",
+   "arr_kotake": "22:43",
+   "arr_ikebukuro": "22:35",
+   "dest": "小手指"
+  },
+  {
+   "dep": "22:30",
+   "arr_kotake": "22:49",
+   "arr_ikebukuro": "22:41",
+   "dest": "飯能"
+  },
+  {
+   "dep": "22:35",
+   "arr_kotake": "22:54",
+   "arr_ikebukuro": "22:46",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "22:41",
+   "arr_kotake": "23:00",
+   "arr_ikebukuro": "22:52",
+   "dest": "小手指"
+  },
+  {
+   "dep": "22:46",
+   "arr_kotake": "23:05",
+   "arr_ikebukuro": "22:57",
+   "dest": "和光市"
+  },
+  {
+   "dep": "22:52",
+   "arr_kotake": "23:11",
+   "arr_ikebukuro": "23:03",
+   "dest": "和光市"
+  },
+  {
+   "dep": "22:57",
+   "arr_kotake": "23:16",
+   "arr_ikebukuro": "23:08",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:03",
+   "arr_kotake": "23:22",
+   "arr_ikebukuro": "23:14",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "23:08",
+   "arr_kotake": "23:27",
+   "arr_ikebukuro": "23:19",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "23:14",
+   "arr_kotake": "23:33",
+   "arr_ikebukuro": "23:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "23:19",
+   "arr_kotake": "23:38",
+   "arr_ikebukuro": "23:30",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "23:25",
+   "arr_kotake": "23:44",
+   "arr_ikebukuro": "23:36",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:31",
+   "arr_kotake": "23:50",
+   "arr_ikebukuro": "23:42",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:37",
+   "arr_kotake": "23:56",
+   "arr_ikebukuro": "23:48",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:43",
+   "arr_kotake": "24:02",
+   "arr_ikebukuro": "23:54",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:49",
+   "arr_kotake": "24:08",
+   "arr_ikebukuro": "24:00",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:54",
+   "arr_kotake": "24:13",
+   "arr_ikebukuro": "24:05",
+   "dest": "和光市"
+  },
+  {
+   "dep": "00:00",
+   "arr_kotake": "00:19",
+   "arr_ikebukuro": "00:11",
+   "dest": "和光市"
+  },
+  {
+   "dep": "00:11",
+   "arr_kotake": "00:30",
+   "arr_ikebukuro": "00:22",
+   "dest": "池袋"
+  },
+  {
+   "dep": "00:21",
+   "arr_kotake": "00:40",
+   "arr_ikebukuro": "00:32",
+   "dest": "池袋"
+  }
+ ],
+ "saturday": [
+  {
+   "dep": "05:00",
+   "arr_kotake": "05:19",
+   "arr_ikebukuro": "05:11",
+   "dest": "和光市"
+  },
+  {
+   "dep": "05:20",
+   "arr_kotake": "05:39",
+   "arr_ikebukuro": "05:31",
+   "dest": "和光市"
+  },
+  {
+   "dep": "05:34",
+   "arr_kotake": "05:53",
+   "arr_ikebukuro": "05:45",
+   "dest": "和光市"
+  },
+  {
+   "dep": "05:46",
+   "arr_kotake": "06:05",
+   "arr_ikebukuro": "05:57",
+   "dest": "川越市"
+  },
+  {
+   "dep": "05:56",
+   "arr_kotake": "06:15",
+   "arr_ikebukuro": "06:07",
+   "dest": "小手指"
+  },
+  {
+   "dep": "06:06",
+   "arr_kotake": "06:25",
+   "arr_ikebukuro": "06:17",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:13",
+   "arr_kotake": "06:32",
+   "arr_ikebukuro": "06:24",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:21",
+   "arr_kotake": "06:40",
+   "arr_ikebukuro": "06:32",
+   "dest": "川越市"
+  },
+  {
+   "dep": "06:28",
+   "arr_kotake": "06:47",
+   "arr_ikebukuro": "06:39",
+   "dest": "志木"
+  },
+  {
+   "dep": "06:35",
+   "arr_kotake": "06:54",
+   "arr_ikebukuro": "06:46",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "06:41",
+   "arr_kotake": "07:00",
+   "arr_ikebukuro": "06:52",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:48",
+   "arr_kotake": "07:07",
+   "arr_ikebukuro": "06:59",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:55",
+   "arr_kotake": "07:14",
+   "arr_ikebukuro": "07:06",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "07:01",
+   "arr_kotake": "07:20",
+   "arr_ikebukuro": "07:12",
+   "dest": "川越市"
+  },
+  {
+   "dep": "07:08",
+   "arr_kotake": "07:27",
+   "arr_ikebukuro": "07:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:15",
+   "arr_kotake": "07:34",
+   "arr_ikebukuro": "07:26",
+   "dest": "所沢"
+  },
+  {
+   "dep": "07:20",
+   "arr_kotake": "07:39",
+   "arr_ikebukuro": "07:31",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:26",
+   "arr_kotake": "07:45",
+   "arr_ikebukuro": "07:37",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:31",
+   "arr_kotake": "07:50",
+   "arr_ikebukuro": "07:42",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "07:37",
+   "arr_kotake": "07:56",
+   "arr_ikebukuro": "07:48",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:42",
+   "arr_kotake": "08:01",
+   "arr_ikebukuro": "07:53",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:48",
+   "arr_kotake": "08:07",
+   "arr_ikebukuro": "07:59",
+   "dest": "川越市"
+  },
+  {
+   "dep": "07:53",
+   "arr_kotake": "08:12",
+   "arr_ikebukuro": "08:04",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:59",
+   "arr_kotake": "08:18",
+   "arr_ikebukuro": "08:10",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:04",
+   "arr_kotake": "08:23",
+   "arr_ikebukuro": "08:15",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:09",
+   "arr_kotake": "08:28",
+   "arr_ikebukuro": "08:20",
+   "dest": "川越市"
+  },
+  {
+   "dep": "08:14",
+   "arr_kotake": "08:33",
+   "arr_ikebukuro": "08:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "08:19",
+   "arr_kotake": "08:38",
+   "arr_ikebukuro": "08:30",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:24",
+   "arr_kotake": "08:43",
+   "arr_ikebukuro": "08:35",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:29",
+   "arr_kotake": "08:48",
+   "arr_ikebukuro": "08:40",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "08:34",
+   "arr_kotake": "08:53",
+   "arr_ikebukuro": "08:45",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "08:39",
+   "arr_kotake": "08:58",
+   "arr_ikebukuro": "08:50",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:44",
+   "arr_kotake": "09:03",
+   "arr_ikebukuro": "08:55",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:49",
+   "arr_kotake": "09:08",
+   "arr_ikebukuro": "09:00",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:54",
+   "arr_kotake": "09:13",
+   "arr_ikebukuro": "09:05",
+   "dest": "川越市"
+  },
+  {
+   "dep": "08:59",
+   "arr_kotake": "09:18",
+   "arr_ikebukuro": "09:10",
+   "dest": "飯能"
+  },
+  {
+   "dep": "09:04",
+   "arr_kotake": "09:23",
+   "arr_ikebukuro": "09:15",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:10",
+   "arr_kotake": "09:29",
+   "arr_ikebukuro": "09:21",
+   "dest": "川越市"
+  },
+  {
+   "dep": "09:15",
+   "arr_kotake": "09:34",
+   "arr_ikebukuro": "09:26",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "09:21",
+   "arr_kotake": "09:40",
+   "arr_ikebukuro": "09:32",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:26",
+   "arr_kotake": "09:45",
+   "arr_ikebukuro": "09:37",
+   "dest": "小手指"
+  },
+  {
+   "dep": "09:31",
+   "arr_kotake": "09:50",
+   "arr_ikebukuro": "09:42",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:36",
+   "arr_kotake": "09:55",
+   "arr_ikebukuro": "09:47",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:41",
+   "arr_kotake": "10:00",
+   "arr_ikebukuro": "09:52",
+   "dest": "小手指"
+  },
+  {
+   "dep": "09:46",
+   "arr_kotake": "10:05",
+   "arr_ikebukuro": "09:57",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "09:52",
+   "arr_kotake": "10:11",
+   "arr_ikebukuro": "10:03",
+   "dest": "川越市"
+  },
+  {
+   "dep": "09:58",
+   "arr_kotake": "10:17",
+   "arr_ikebukuro": "10:09",
+   "dest": "飯能"
+  },
+  {
+   "dep": "10:04",
+   "arr_kotake": "10:23",
+   "arr_ikebukuro": "10:15",
+   "dest": "和光市"
+  },
+  {
+   "dep": "10:09",
+   "arr_kotake": "10:28",
+   "arr_ikebukuro": "10:20",
+   "dest": "保谷"
+  },
+  {
+   "dep": "10:15",
+   "arr_kotake": "10:34",
+   "arr_ikebukuro": "10:26",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "10:20",
+   "arr_kotake": "10:39",
+   "arr_ikebukuro": "10:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "10:26",
+   "arr_kotake": "10:45",
+   "arr_ikebukuro": "10:37",
+   "dest": "小手指"
+  },
+  {
+   "dep": "10:32",
+   "arr_kotake": "10:51",
+   "arr_ikebukuro": "10:43",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "10:38",
+   "arr_kotake": "10:57",
+   "arr_ikebukuro": "10:49",
+   "dest": "川越市"
+  },
+  {
+   "dep": "10:44",
+   "arr_kotake": "11:03",
+   "arr_ikebukuro": "10:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "10:50",
+   "arr_kotake": "11:09",
+   "arr_ikebukuro": "11:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "10:56",
+   "arr_kotake": "11:15",
+   "arr_ikebukuro": "11:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "11:02",
+   "arr_kotake": "11:21",
+   "arr_ikebukuro": "11:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "11:08",
+   "arr_kotake": "11:27",
+   "arr_ikebukuro": "11:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "11:14",
+   "arr_kotake": "11:33",
+   "arr_ikebukuro": "11:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "11:20",
+   "arr_kotake": "11:39",
+   "arr_ikebukuro": "11:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "11:26",
+   "arr_kotake": "11:45",
+   "arr_ikebukuro": "11:37",
+   "dest": "保谷"
+  },
+  {
+   "dep": "11:32",
+   "arr_kotake": "11:51",
+   "arr_ikebukuro": "11:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "11:38",
+   "arr_kotake": "11:57",
+   "arr_ikebukuro": "11:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "11:44",
+   "arr_kotake": "12:03",
+   "arr_ikebukuro": "11:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "11:50",
+   "arr_kotake": "12:09",
+   "arr_ikebukuro": "12:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "11:56",
+   "arr_kotake": "12:15",
+   "arr_ikebukuro": "12:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "12:02",
+   "arr_kotake": "12:21",
+   "arr_ikebukuro": "12:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "12:08",
+   "arr_kotake": "12:27",
+   "arr_ikebukuro": "12:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "12:14",
+   "arr_kotake": "12:33",
+   "arr_ikebukuro": "12:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "12:20",
+   "arr_kotake": "12:39",
+   "arr_ikebukuro": "12:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "12:26",
+   "arr_kotake": "12:45",
+   "arr_ikebukuro": "12:37",
+   "dest": "保谷"
+  },
+  {
+   "dep": "12:32",
+   "arr_kotake": "12:51",
+   "arr_ikebukuro": "12:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "12:38",
+   "arr_kotake": "12:57",
+   "arr_ikebukuro": "12:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "12:44",
+   "arr_kotake": "13:03",
+   "arr_ikebukuro": "12:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "12:50",
+   "arr_kotake": "13:09",
+   "arr_ikebukuro": "13:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "12:56",
+   "arr_kotake": "13:15",
+   "arr_ikebukuro": "13:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "13:02",
+   "arr_kotake": "13:21",
+   "arr_ikebukuro": "13:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "13:08",
+   "arr_kotake": "13:27",
+   "arr_ikebukuro": "13:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "13:14",
+   "arr_kotake": "13:33",
+   "arr_ikebukuro": "13:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "13:20",
+   "arr_kotake": "13:39",
+   "arr_ikebukuro": "13:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "13:26",
+   "arr_kotake": "13:45",
+   "arr_ikebukuro": "13:37",
+   "dest": "保谷"
+  },
+  {
+   "dep": "13:32",
+   "arr_kotake": "13:51",
+   "arr_ikebukuro": "13:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "13:38",
+   "arr_kotake": "13:57",
+   "arr_ikebukuro": "13:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "13:44",
+   "arr_kotake": "14:03",
+   "arr_ikebukuro": "13:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "13:50",
+   "arr_kotake": "14:09",
+   "arr_ikebukuro": "14:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "13:56",
+   "arr_kotake": "14:15",
+   "arr_ikebukuro": "14:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "14:02",
+   "arr_kotake": "14:21",
+   "arr_ikebukuro": "14:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "14:08",
+   "arr_kotake": "14:27",
+   "arr_ikebukuro": "14:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "14:14",
+   "arr_kotake": "14:33",
+   "arr_ikebukuro": "14:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "14:20",
+   "arr_kotake": "14:39",
+   "arr_ikebukuro": "14:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "14:26",
+   "arr_kotake": "14:45",
+   "arr_ikebukuro": "14:37",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "14:32",
+   "arr_kotake": "14:51",
+   "arr_ikebukuro": "14:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "14:38",
+   "arr_kotake": "14:57",
+   "arr_ikebukuro": "14:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "14:44",
+   "arr_kotake": "15:03",
+   "arr_ikebukuro": "14:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "14:50",
+   "arr_kotake": "15:09",
+   "arr_ikebukuro": "15:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "14:56",
+   "arr_kotake": "15:15",
+   "arr_ikebukuro": "15:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "15:02",
+   "arr_kotake": "15:21",
+   "arr_ikebukuro": "15:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "15:08",
+   "arr_kotake": "15:27",
+   "arr_ikebukuro": "15:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "15:14",
+   "arr_kotake": "15:33",
+   "arr_ikebukuro": "15:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "15:20",
+   "arr_kotake": "15:39",
+   "arr_ikebukuro": "15:31",
+   "dest": "志木"
+  },
+  {
+   "dep": "15:26",
+   "arr_kotake": "15:45",
+   "arr_ikebukuro": "15:37",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "15:32",
+   "arr_kotake": "15:51",
+   "arr_ikebukuro": "15:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "15:38",
+   "arr_kotake": "15:57",
+   "arr_ikebukuro": "15:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "15:44",
+   "arr_kotake": "16:03",
+   "arr_ikebukuro": "15:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "15:50",
+   "arr_kotake": "16:09",
+   "arr_ikebukuro": "16:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "15:56",
+   "arr_kotake": "16:15",
+   "arr_ikebukuro": "16:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "16:02",
+   "arr_kotake": "16:21",
+   "arr_ikebukuro": "16:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "16:08",
+   "arr_kotake": "16:27",
+   "arr_ikebukuro": "16:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "16:14",
+   "arr_kotake": "16:33",
+   "arr_ikebukuro": "16:25",
+   "dest": "所沢"
+  },
+  {
+   "dep": "16:20",
+   "arr_kotake": "16:39",
+   "arr_ikebukuro": "16:31",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "16:26",
+   "arr_kotake": "16:45",
+   "arr_ikebukuro": "16:37",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "16:32",
+   "arr_kotake": "16:51",
+   "arr_ikebukuro": "16:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "16:38",
+   "arr_kotake": "16:57",
+   "arr_ikebukuro": "16:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "16:44",
+   "arr_kotake": "17:03",
+   "arr_ikebukuro": "16:55",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "16:50",
+   "arr_kotake": "17:09",
+   "arr_ikebukuro": "17:01",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "16:56",
+   "arr_kotake": "17:15",
+   "arr_ikebukuro": "17:07",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "17:01",
+   "arr_kotake": "17:20",
+   "arr_ikebukuro": "17:12",
+   "dest": "川越市"
+  },
+  {
+   "dep": "17:06",
+   "arr_kotake": "17:25",
+   "arr_ikebukuro": "17:17",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "17:12",
+   "arr_kotake": "17:31",
+   "arr_ikebukuro": "17:23",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "17:17",
+   "arr_kotake": "17:36",
+   "arr_ikebukuro": "17:28",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:22",
+   "arr_kotake": "17:41",
+   "arr_ikebukuro": "17:33",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:27",
+   "arr_kotake": "17:46",
+   "arr_ikebukuro": "17:38",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:33",
+   "arr_kotake": "17:52",
+   "arr_ikebukuro": "17:44",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "17:38",
+   "arr_kotake": "17:57",
+   "arr_ikebukuro": "17:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:44",
+   "arr_kotake": "18:03",
+   "arr_ikebukuro": "17:55",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:49",
+   "arr_kotake": "18:08",
+   "arr_ikebukuro": "18:00",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "17:55",
+   "arr_kotake": "18:14",
+   "arr_ikebukuro": "18:06",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "18:01",
+   "arr_kotake": "18:20",
+   "arr_ikebukuro": "18:12",
+   "dest": "川越市"
+  },
+  {
+   "dep": "18:07",
+   "arr_kotake": "18:26",
+   "arr_ikebukuro": "18:18",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:13",
+   "arr_kotake": "18:32",
+   "arr_ikebukuro": "18:24",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:19",
+   "arr_kotake": "18:38",
+   "arr_ikebukuro": "18:30",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "18:25",
+   "arr_kotake": "18:44",
+   "arr_ikebukuro": "18:36",
+   "dest": "川越市"
+  },
+  {
+   "dep": "18:31",
+   "arr_kotake": "18:50",
+   "arr_ikebukuro": "18:42",
+   "dest": "飯能"
+  },
+  {
+   "dep": "18:36",
+   "arr_kotake": "18:55",
+   "arr_ikebukuro": "18:47",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:41",
+   "arr_kotake": "19:00",
+   "arr_ikebukuro": "18:52",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "18:46",
+   "arr_kotake": "19:05",
+   "arr_ikebukuro": "18:57",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:51",
+   "arr_kotake": "19:10",
+   "arr_ikebukuro": "19:02",
+   "dest": "小手指"
+  },
+  {
+   "dep": "18:56",
+   "arr_kotake": "19:15",
+   "arr_ikebukuro": "19:07",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:01",
+   "arr_kotake": "19:20",
+   "arr_ikebukuro": "19:12",
+   "dest": "川越市"
+  },
+  {
+   "dep": "19:06",
+   "arr_kotake": "19:25",
+   "arr_ikebukuro": "19:17",
+   "dest": "飯能"
+  },
+  {
+   "dep": "19:11",
+   "arr_kotake": "19:30",
+   "arr_ikebukuro": "19:22",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:16",
+   "arr_kotake": "19:35",
+   "arr_ikebukuro": "19:27",
+   "dest": "保谷"
+  },
+  {
+   "dep": "19:21",
+   "arr_kotake": "19:40",
+   "arr_ikebukuro": "19:32",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "19:27",
+   "arr_kotake": "19:46",
+   "arr_ikebukuro": "19:38",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:33",
+   "arr_kotake": "19:52",
+   "arr_ikebukuro": "19:44",
+   "dest": "飯能"
+  },
+  {
+   "dep": "19:39",
+   "arr_kotake": "19:58",
+   "arr_ikebukuro": "19:50",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:45",
+   "arr_kotake": "20:04",
+   "arr_ikebukuro": "19:56",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "19:51",
+   "arr_kotake": "20:10",
+   "arr_ikebukuro": "20:02",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:57",
+   "arr_kotake": "20:16",
+   "arr_ikebukuro": "20:08",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:02",
+   "arr_kotake": "20:21",
+   "arr_ikebukuro": "20:13",
+   "dest": "川越市"
+  },
+  {
+   "dep": "20:08",
+   "arr_kotake": "20:27",
+   "arr_ikebukuro": "20:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:13",
+   "arr_kotake": "20:32",
+   "arr_ikebukuro": "20:24",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "20:19",
+   "arr_kotake": "20:38",
+   "arr_ikebukuro": "20:30",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "20:24",
+   "arr_kotake": "20:43",
+   "arr_ikebukuro": "20:35",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:30",
+   "arr_kotake": "20:49",
+   "arr_ikebukuro": "20:41",
+   "dest": "川越市"
+  },
+  {
+   "dep": "20:35",
+   "arr_kotake": "20:54",
+   "arr_ikebukuro": "20:46",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:41",
+   "arr_kotake": "21:00",
+   "arr_ikebukuro": "20:52",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:46",
+   "arr_kotake": "21:05",
+   "arr_ikebukuro": "20:57",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "20:52",
+   "arr_kotake": "21:11",
+   "arr_ikebukuro": "21:03",
+   "dest": "川越市"
+  },
+  {
+   "dep": "20:57",
+   "arr_kotake": "21:16",
+   "arr_ikebukuro": "21:08",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:03",
+   "arr_kotake": "21:22",
+   "arr_ikebukuro": "21:14",
+   "dest": "所沢"
+  },
+  {
+   "dep": "21:08",
+   "arr_kotake": "21:27",
+   "arr_ikebukuro": "21:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:14",
+   "arr_kotake": "21:33",
+   "arr_ikebukuro": "21:25",
+   "dest": "所沢"
+  },
+  {
+   "dep": "21:19",
+   "arr_kotake": "21:38",
+   "arr_ikebukuro": "21:30",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:25",
+   "arr_kotake": "21:44",
+   "arr_ikebukuro": "21:36",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:30",
+   "arr_kotake": "21:49",
+   "arr_ikebukuro": "21:41",
+   "dest": "小手指"
+  },
+  {
+   "dep": "21:36",
+   "arr_kotake": "21:55",
+   "arr_ikebukuro": "21:47",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:43",
+   "arr_kotake": "22:02",
+   "arr_ikebukuro": "21:54",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:49",
+   "arr_kotake": "22:08",
+   "arr_ikebukuro": "22:00",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:55",
+   "arr_kotake": "22:14",
+   "arr_ikebukuro": "22:06",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "22:02",
+   "arr_kotake": "22:21",
+   "arr_ikebukuro": "22:13",
+   "dest": "小手指"
+  },
+  {
+   "dep": "22:08",
+   "arr_kotake": "22:27",
+   "arr_ikebukuro": "22:19",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "22:14",
+   "arr_kotake": "22:33",
+   "arr_ikebukuro": "22:25",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "22:20",
+   "arr_kotake": "22:39",
+   "arr_ikebukuro": "22:31",
+   "dest": "和光市"
+  },
+  {
+   "dep": "22:26",
+   "arr_kotake": "22:45",
+   "arr_ikebukuro": "22:37",
+   "dest": "和光市"
+  },
+  {
+   "dep": "22:32",
+   "arr_kotake": "22:51",
+   "arr_ikebukuro": "22:43",
+   "dest": "飯能"
+  },
+  {
+   "dep": "22:39",
+   "arr_kotake": "22:58",
+   "arr_ikebukuro": "22:50",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "22:45",
+   "arr_kotake": "23:04",
+   "arr_ikebukuro": "22:56",
+   "dest": "和光市"
+  },
+  {
+   "dep": "22:51",
+   "arr_kotake": "23:10",
+   "arr_ikebukuro": "23:02",
+   "dest": "和光市"
+  },
+  {
+   "dep": "22:58",
+   "arr_kotake": "23:17",
+   "arr_ikebukuro": "23:09",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:05",
+   "arr_kotake": "23:24",
+   "arr_ikebukuro": "23:16",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:12",
+   "arr_kotake": "23:31",
+   "arr_ikebukuro": "23:23",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:18",
+   "arr_kotake": "23:37",
+   "arr_ikebukuro": "23:29",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:25",
+   "arr_kotake": "23:44",
+   "arr_ikebukuro": "23:36",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:31",
+   "arr_kotake": "23:50",
+   "arr_ikebukuro": "23:42",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:38",
+   "arr_kotake": "23:57",
+   "arr_ikebukuro": "23:49",
+   "dest": "小手指"
+  },
+  {
+   "dep": "23:44",
+   "arr_kotake": "24:03",
+   "arr_ikebukuro": "23:55",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:52",
+   "arr_kotake": "24:11",
+   "arr_ikebukuro": "24:03",
+   "dest": "和光市"
+  },
+  {
+   "dep": "00:00",
+   "arr_kotake": "00:19",
+   "arr_ikebukuro": "00:11",
+   "dest": "和光市"
+  },
+  {
+   "dep": "00:11",
+   "arr_kotake": "00:30",
+   "arr_ikebukuro": "00:22",
+   "dest": "池袋"
+  },
+  {
+   "dep": "00:21",
+   "arr_kotake": "00:40",
+   "arr_ikebukuro": "00:32",
+   "dest": "池袋"
+  }
+ ],
+ "holiday": [
+  {
+   "dep": "05:00",
+   "arr_kotake": "05:19",
+   "arr_ikebukuro": "05:11",
+   "dest": "和光市"
+  },
+  {
+   "dep": "05:20",
+   "arr_kotake": "05:39",
+   "arr_ikebukuro": "05:31",
+   "dest": "和光市"
+  },
+  {
+   "dep": "05:34",
+   "arr_kotake": "05:53",
+   "arr_ikebukuro": "05:45",
+   "dest": "和光市"
+  },
+  {
+   "dep": "05:46",
+   "arr_kotake": "06:05",
+   "arr_ikebukuro": "05:57",
+   "dest": "川越市"
+  },
+  {
+   "dep": "05:56",
+   "arr_kotake": "06:15",
+   "arr_ikebukuro": "06:07",
+   "dest": "小手指"
+  },
+  {
+   "dep": "06:06",
+   "arr_kotake": "06:25",
+   "arr_ikebukuro": "06:17",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:13",
+   "arr_kotake": "06:32",
+   "arr_ikebukuro": "06:24",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:21",
+   "arr_kotake": "06:40",
+   "arr_ikebukuro": "06:32",
+   "dest": "川越市"
+  },
+  {
+   "dep": "06:28",
+   "arr_kotake": "06:47",
+   "arr_ikebukuro": "06:39",
+   "dest": "志木"
+  },
+  {
+   "dep": "06:35",
+   "arr_kotake": "06:54",
+   "arr_ikebukuro": "06:46",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "06:41",
+   "arr_kotake": "07:00",
+   "arr_ikebukuro": "06:52",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:48",
+   "arr_kotake": "07:07",
+   "arr_ikebukuro": "06:59",
+   "dest": "和光市"
+  },
+  {
+   "dep": "06:55",
+   "arr_kotake": "07:14",
+   "arr_ikebukuro": "07:06",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "07:01",
+   "arr_kotake": "07:20",
+   "arr_ikebukuro": "07:12",
+   "dest": "川越市"
+  },
+  {
+   "dep": "07:08",
+   "arr_kotake": "07:27",
+   "arr_ikebukuro": "07:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:15",
+   "arr_kotake": "07:34",
+   "arr_ikebukuro": "07:26",
+   "dest": "所沢"
+  },
+  {
+   "dep": "07:20",
+   "arr_kotake": "07:39",
+   "arr_ikebukuro": "07:31",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:26",
+   "arr_kotake": "07:45",
+   "arr_ikebukuro": "07:37",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:31",
+   "arr_kotake": "07:50",
+   "arr_ikebukuro": "07:42",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "07:37",
+   "arr_kotake": "07:56",
+   "arr_ikebukuro": "07:48",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:42",
+   "arr_kotake": "08:01",
+   "arr_ikebukuro": "07:53",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:48",
+   "arr_kotake": "08:07",
+   "arr_ikebukuro": "07:59",
+   "dest": "川越市"
+  },
+  {
+   "dep": "07:53",
+   "arr_kotake": "08:12",
+   "arr_ikebukuro": "08:04",
+   "dest": "和光市"
+  },
+  {
+   "dep": "07:59",
+   "arr_kotake": "08:18",
+   "arr_ikebukuro": "08:10",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:04",
+   "arr_kotake": "08:23",
+   "arr_ikebukuro": "08:15",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:09",
+   "arr_kotake": "08:28",
+   "arr_ikebukuro": "08:20",
+   "dest": "川越市"
+  },
+  {
+   "dep": "08:14",
+   "arr_kotake": "08:33",
+   "arr_ikebukuro": "08:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "08:19",
+   "arr_kotake": "08:38",
+   "arr_ikebukuro": "08:30",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:24",
+   "arr_kotake": "08:43",
+   "arr_ikebukuro": "08:35",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:29",
+   "arr_kotake": "08:48",
+   "arr_ikebukuro": "08:40",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "08:34",
+   "arr_kotake": "08:53",
+   "arr_ikebukuro": "08:45",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "08:39",
+   "arr_kotake": "08:58",
+   "arr_ikebukuro": "08:50",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:44",
+   "arr_kotake": "09:03",
+   "arr_ikebukuro": "08:55",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:49",
+   "arr_kotake": "09:08",
+   "arr_ikebukuro": "09:00",
+   "dest": "和光市"
+  },
+  {
+   "dep": "08:54",
+   "arr_kotake": "09:13",
+   "arr_ikebukuro": "09:05",
+   "dest": "川越市"
+  },
+  {
+   "dep": "08:59",
+   "arr_kotake": "09:18",
+   "arr_ikebukuro": "09:10",
+   "dest": "飯能"
+  },
+  {
+   "dep": "09:04",
+   "arr_kotake": "09:23",
+   "arr_ikebukuro": "09:15",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:10",
+   "arr_kotake": "09:29",
+   "arr_ikebukuro": "09:21",
+   "dest": "川越市"
+  },
+  {
+   "dep": "09:15",
+   "arr_kotake": "09:34",
+   "arr_ikebukuro": "09:26",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "09:21",
+   "arr_kotake": "09:40",
+   "arr_ikebukuro": "09:32",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:26",
+   "arr_kotake": "09:45",
+   "arr_ikebukuro": "09:37",
+   "dest": "小手指"
+  },
+  {
+   "dep": "09:31",
+   "arr_kotake": "09:50",
+   "arr_ikebukuro": "09:42",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:36",
+   "arr_kotake": "09:55",
+   "arr_ikebukuro": "09:47",
+   "dest": "和光市"
+  },
+  {
+   "dep": "09:41",
+   "arr_kotake": "10:00",
+   "arr_ikebukuro": "09:52",
+   "dest": "小手指"
+  },
+  {
+   "dep": "09:46",
+   "arr_kotake": "10:05",
+   "arr_ikebukuro": "09:57",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "09:52",
+   "arr_kotake": "10:11",
+   "arr_ikebukuro": "10:03",
+   "dest": "川越市"
+  },
+  {
+   "dep": "09:58",
+   "arr_kotake": "10:17",
+   "arr_ikebukuro": "10:09",
+   "dest": "飯能"
+  },
+  {
+   "dep": "10:04",
+   "arr_kotake": "10:23",
+   "arr_ikebukuro": "10:15",
+   "dest": "和光市"
+  },
+  {
+   "dep": "10:09",
+   "arr_kotake": "10:28",
+   "arr_ikebukuro": "10:20",
+   "dest": "保谷"
+  },
+  {
+   "dep": "10:15",
+   "arr_kotake": "10:34",
+   "arr_ikebukuro": "10:26",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "10:20",
+   "arr_kotake": "10:39",
+   "arr_ikebukuro": "10:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "10:26",
+   "arr_kotake": "10:45",
+   "arr_ikebukuro": "10:37",
+   "dest": "小手指"
+  },
+  {
+   "dep": "10:32",
+   "arr_kotake": "10:51",
+   "arr_ikebukuro": "10:43",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "10:38",
+   "arr_kotake": "10:57",
+   "arr_ikebukuro": "10:49",
+   "dest": "川越市"
+  },
+  {
+   "dep": "10:44",
+   "arr_kotake": "11:03",
+   "arr_ikebukuro": "10:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "10:50",
+   "arr_kotake": "11:09",
+   "arr_ikebukuro": "11:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "10:56",
+   "arr_kotake": "11:15",
+   "arr_ikebukuro": "11:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "11:02",
+   "arr_kotake": "11:21",
+   "arr_ikebukuro": "11:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "11:08",
+   "arr_kotake": "11:27",
+   "arr_ikebukuro": "11:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "11:14",
+   "arr_kotake": "11:33",
+   "arr_ikebukuro": "11:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "11:20",
+   "arr_kotake": "11:39",
+   "arr_ikebukuro": "11:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "11:26",
+   "arr_kotake": "11:45",
+   "arr_ikebukuro": "11:37",
+   "dest": "保谷"
+  },
+  {
+   "dep": "11:32",
+   "arr_kotake": "11:51",
+   "arr_ikebukuro": "11:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "11:38",
+   "arr_kotake": "11:57",
+   "arr_ikebukuro": "11:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "11:44",
+   "arr_kotake": "12:03",
+   "arr_ikebukuro": "11:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "11:50",
+   "arr_kotake": "12:09",
+   "arr_ikebukuro": "12:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "11:56",
+   "arr_kotake": "12:15",
+   "arr_ikebukuro": "12:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "12:02",
+   "arr_kotake": "12:21",
+   "arr_ikebukuro": "12:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "12:08",
+   "arr_kotake": "12:27",
+   "arr_ikebukuro": "12:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "12:14",
+   "arr_kotake": "12:33",
+   "arr_ikebukuro": "12:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "12:20",
+   "arr_kotake": "12:39",
+   "arr_ikebukuro": "12:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "12:26",
+   "arr_kotake": "12:45",
+   "arr_ikebukuro": "12:37",
+   "dest": "保谷"
+  },
+  {
+   "dep": "12:32",
+   "arr_kotake": "12:51",
+   "arr_ikebukuro": "12:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "12:38",
+   "arr_kotake": "12:57",
+   "arr_ikebukuro": "12:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "12:44",
+   "arr_kotake": "13:03",
+   "arr_ikebukuro": "12:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "12:50",
+   "arr_kotake": "13:09",
+   "arr_ikebukuro": "13:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "12:56",
+   "arr_kotake": "13:15",
+   "arr_ikebukuro": "13:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "13:02",
+   "arr_kotake": "13:21",
+   "arr_ikebukuro": "13:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "13:08",
+   "arr_kotake": "13:27",
+   "arr_ikebukuro": "13:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "13:14",
+   "arr_kotake": "13:33",
+   "arr_ikebukuro": "13:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "13:20",
+   "arr_kotake": "13:39",
+   "arr_ikebukuro": "13:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "13:26",
+   "arr_kotake": "13:45",
+   "arr_ikebukuro": "13:37",
+   "dest": "保谷"
+  },
+  {
+   "dep": "13:32",
+   "arr_kotake": "13:51",
+   "arr_ikebukuro": "13:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "13:38",
+   "arr_kotake": "13:57",
+   "arr_ikebukuro": "13:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "13:44",
+   "arr_kotake": "14:03",
+   "arr_ikebukuro": "13:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "13:50",
+   "arr_kotake": "14:09",
+   "arr_ikebukuro": "14:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "13:56",
+   "arr_kotake": "14:15",
+   "arr_ikebukuro": "14:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "14:02",
+   "arr_kotake": "14:21",
+   "arr_ikebukuro": "14:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "14:08",
+   "arr_kotake": "14:27",
+   "arr_ikebukuro": "14:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "14:14",
+   "arr_kotake": "14:33",
+   "arr_ikebukuro": "14:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "14:20",
+   "arr_kotake": "14:39",
+   "arr_ikebukuro": "14:31",
+   "dest": "川越市"
+  },
+  {
+   "dep": "14:26",
+   "arr_kotake": "14:45",
+   "arr_ikebukuro": "14:37",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "14:32",
+   "arr_kotake": "14:51",
+   "arr_ikebukuro": "14:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "14:38",
+   "arr_kotake": "14:57",
+   "arr_ikebukuro": "14:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "14:44",
+   "arr_kotake": "15:03",
+   "arr_ikebukuro": "14:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "14:50",
+   "arr_kotake": "15:09",
+   "arr_ikebukuro": "15:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "14:56",
+   "arr_kotake": "15:15",
+   "arr_ikebukuro": "15:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "15:02",
+   "arr_kotake": "15:21",
+   "arr_ikebukuro": "15:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "15:08",
+   "arr_kotake": "15:27",
+   "arr_ikebukuro": "15:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "15:14",
+   "arr_kotake": "15:33",
+   "arr_ikebukuro": "15:25",
+   "dest": "小手指"
+  },
+  {
+   "dep": "15:20",
+   "arr_kotake": "15:39",
+   "arr_ikebukuro": "15:31",
+   "dest": "志木"
+  },
+  {
+   "dep": "15:26",
+   "arr_kotake": "15:45",
+   "arr_ikebukuro": "15:37",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "15:32",
+   "arr_kotake": "15:51",
+   "arr_ikebukuro": "15:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "15:38",
+   "arr_kotake": "15:57",
+   "arr_ikebukuro": "15:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "15:44",
+   "arr_kotake": "16:03",
+   "arr_ikebukuro": "15:55",
+   "dest": "小手指"
+  },
+  {
+   "dep": "15:50",
+   "arr_kotake": "16:09",
+   "arr_ikebukuro": "16:01",
+   "dest": "川越市"
+  },
+  {
+   "dep": "15:56",
+   "arr_kotake": "16:15",
+   "arr_ikebukuro": "16:07",
+   "dest": "保谷"
+  },
+  {
+   "dep": "16:02",
+   "arr_kotake": "16:21",
+   "arr_ikebukuro": "16:13",
+   "dest": "和光市"
+  },
+  {
+   "dep": "16:08",
+   "arr_kotake": "16:27",
+   "arr_ikebukuro": "16:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "16:14",
+   "arr_kotake": "16:33",
+   "arr_ikebukuro": "16:25",
+   "dest": "所沢"
+  },
+  {
+   "dep": "16:20",
+   "arr_kotake": "16:39",
+   "arr_ikebukuro": "16:31",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "16:26",
+   "arr_kotake": "16:45",
+   "arr_ikebukuro": "16:37",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "16:32",
+   "arr_kotake": "16:51",
+   "arr_ikebukuro": "16:43",
+   "dest": "和光市"
+  },
+  {
+   "dep": "16:38",
+   "arr_kotake": "16:57",
+   "arr_ikebukuro": "16:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "16:44",
+   "arr_kotake": "17:03",
+   "arr_ikebukuro": "16:55",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "16:50",
+   "arr_kotake": "17:09",
+   "arr_ikebukuro": "17:01",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "16:56",
+   "arr_kotake": "17:15",
+   "arr_ikebukuro": "17:07",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "17:01",
+   "arr_kotake": "17:20",
+   "arr_ikebukuro": "17:12",
+   "dest": "川越市"
+  },
+  {
+   "dep": "17:06",
+   "arr_kotake": "17:25",
+   "arr_ikebukuro": "17:17",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "17:12",
+   "arr_kotake": "17:31",
+   "arr_ikebukuro": "17:23",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "17:17",
+   "arr_kotake": "17:36",
+   "arr_ikebukuro": "17:28",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:22",
+   "arr_kotake": "17:41",
+   "arr_ikebukuro": "17:33",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:27",
+   "arr_kotake": "17:46",
+   "arr_ikebukuro": "17:38",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:33",
+   "arr_kotake": "17:52",
+   "arr_ikebukuro": "17:44",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "17:38",
+   "arr_kotake": "17:57",
+   "arr_ikebukuro": "17:49",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:44",
+   "arr_kotake": "18:03",
+   "arr_ikebukuro": "17:55",
+   "dest": "和光市"
+  },
+  {
+   "dep": "17:49",
+   "arr_kotake": "18:08",
+   "arr_ikebukuro": "18:00",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "17:55",
+   "arr_kotake": "18:14",
+   "arr_ikebukuro": "18:06",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "18:01",
+   "arr_kotake": "18:20",
+   "arr_ikebukuro": "18:12",
+   "dest": "川越市"
+  },
+  {
+   "dep": "18:07",
+   "arr_kotake": "18:26",
+   "arr_ikebukuro": "18:18",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:13",
+   "arr_kotake": "18:32",
+   "arr_ikebukuro": "18:24",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:19",
+   "arr_kotake": "18:38",
+   "arr_ikebukuro": "18:30",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "18:25",
+   "arr_kotake": "18:44",
+   "arr_ikebukuro": "18:36",
+   "dest": "川越市"
+  },
+  {
+   "dep": "18:31",
+   "arr_kotake": "18:50",
+   "arr_ikebukuro": "18:42",
+   "dest": "飯能"
+  },
+  {
+   "dep": "18:36",
+   "arr_kotake": "18:55",
+   "arr_ikebukuro": "18:47",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:41",
+   "arr_kotake": "19:00",
+   "arr_ikebukuro": "18:52",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "18:46",
+   "arr_kotake": "19:05",
+   "arr_ikebukuro": "18:57",
+   "dest": "和光市"
+  },
+  {
+   "dep": "18:51",
+   "arr_kotake": "19:10",
+   "arr_ikebukuro": "19:02",
+   "dest": "小手指"
+  },
+  {
+   "dep": "18:56",
+   "arr_kotake": "19:15",
+   "arr_ikebukuro": "19:07",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:01",
+   "arr_kotake": "19:20",
+   "arr_ikebukuro": "19:12",
+   "dest": "川越市"
+  },
+  {
+   "dep": "19:06",
+   "arr_kotake": "19:25",
+   "arr_ikebukuro": "19:17",
+   "dest": "飯能"
+  },
+  {
+   "dep": "19:11",
+   "arr_kotake": "19:30",
+   "arr_ikebukuro": "19:22",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:16",
+   "arr_kotake": "19:35",
+   "arr_ikebukuro": "19:27",
+   "dest": "保谷"
+  },
+  {
+   "dep": "19:21",
+   "arr_kotake": "19:40",
+   "arr_ikebukuro": "19:32",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "19:27",
+   "arr_kotake": "19:46",
+   "arr_ikebukuro": "19:38",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:33",
+   "arr_kotake": "19:52",
+   "arr_ikebukuro": "19:44",
+   "dest": "飯能"
+  },
+  {
+   "dep": "19:39",
+   "arr_kotake": "19:58",
+   "arr_ikebukuro": "19:50",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:45",
+   "arr_kotake": "20:04",
+   "arr_ikebukuro": "19:56",
+   "dest": "清瀬"
+  },
+  {
+   "dep": "19:51",
+   "arr_kotake": "20:10",
+   "arr_ikebukuro": "20:02",
+   "dest": "和光市"
+  },
+  {
+   "dep": "19:57",
+   "arr_kotake": "20:16",
+   "arr_ikebukuro": "20:08",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:02",
+   "arr_kotake": "20:21",
+   "arr_ikebukuro": "20:13",
+   "dest": "川越市"
+  },
+  {
+   "dep": "20:08",
+   "arr_kotake": "20:27",
+   "arr_ikebukuro": "20:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:13",
+   "arr_kotake": "20:32",
+   "arr_ikebukuro": "20:24",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "20:19",
+   "arr_kotake": "20:38",
+   "arr_ikebukuro": "20:30",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "20:24",
+   "arr_kotake": "20:43",
+   "arr_ikebukuro": "20:35",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:30",
+   "arr_kotake": "20:49",
+   "arr_ikebukuro": "20:41",
+   "dest": "川越市"
+  },
+  {
+   "dep": "20:35",
+   "arr_kotake": "20:54",
+   "arr_ikebukuro": "20:46",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:41",
+   "arr_kotake": "21:00",
+   "arr_ikebukuro": "20:52",
+   "dest": "和光市"
+  },
+  {
+   "dep": "20:46",
+   "arr_kotake": "21:05",
+   "arr_ikebukuro": "20:57",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "20:52",
+   "arr_kotake": "21:11",
+   "arr_ikebukuro": "21:03",
+   "dest": "川越市"
+  },
+  {
+   "dep": "20:57",
+   "arr_kotake": "21:16",
+   "arr_ikebukuro": "21:08",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:03",
+   "arr_kotake": "21:22",
+   "arr_ikebukuro": "21:14",
+   "dest": "所沢"
+  },
+  {
+   "dep": "21:08",
+   "arr_kotake": "21:27",
+   "arr_ikebukuro": "21:19",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:14",
+   "arr_kotake": "21:33",
+   "arr_ikebukuro": "21:25",
+   "dest": "所沢"
+  },
+  {
+   "dep": "21:19",
+   "arr_kotake": "21:38",
+   "arr_ikebukuro": "21:30",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:25",
+   "arr_kotake": "21:44",
+   "arr_ikebukuro": "21:36",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:30",
+   "arr_kotake": "21:49",
+   "arr_ikebukuro": "21:41",
+   "dest": "小手指"
+  },
+  {
+   "dep": "21:36",
+   "arr_kotake": "21:55",
+   "arr_ikebukuro": "21:47",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:43",
+   "arr_kotake": "22:02",
+   "arr_ikebukuro": "21:54",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:49",
+   "arr_kotake": "22:08",
+   "arr_ikebukuro": "22:00",
+   "dest": "和光市"
+  },
+  {
+   "dep": "21:55",
+   "arr_kotake": "22:14",
+   "arr_ikebukuro": "22:06",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "22:02",
+   "arr_kotake": "22:21",
+   "arr_ikebukuro": "22:13",
+   "dest": "小手指"
+  },
+  {
+   "dep": "22:08",
+   "arr_kotake": "22:27",
+   "arr_ikebukuro": "22:19",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "22:14",
+   "arr_kotake": "22:33",
+   "arr_ikebukuro": "22:25",
+   "dest": "石神井公園"
+  },
+  {
+   "dep": "22:20",
+   "arr_kotake": "22:39",
+   "arr_ikebukuro": "22:31",
+   "dest": "和光市"
+  },
+  {
+   "dep": "22:26",
+   "arr_kotake": "22:45",
+   "arr_ikebukuro": "22:37",
+   "dest": "和光市"
+  },
+  {
+   "dep": "22:32",
+   "arr_kotake": "22:51",
+   "arr_ikebukuro": "22:43",
+   "dest": "飯能"
+  },
+  {
+   "dep": "22:39",
+   "arr_kotake": "22:58",
+   "arr_ikebukuro": "22:50",
+   "dest": "森林公園"
+  },
+  {
+   "dep": "22:45",
+   "arr_kotake": "23:04",
+   "arr_ikebukuro": "22:56",
+   "dest": "和光市"
+  },
+  {
+   "dep": "22:51",
+   "arr_kotake": "23:10",
+   "arr_ikebukuro": "23:02",
+   "dest": "和光市"
+  },
+  {
+   "dep": "22:58",
+   "arr_kotake": "23:17",
+   "arr_ikebukuro": "23:09",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:05",
+   "arr_kotake": "23:24",
+   "arr_ikebukuro": "23:16",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:12",
+   "arr_kotake": "23:31",
+   "arr_ikebukuro": "23:23",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:18",
+   "arr_kotake": "23:37",
+   "arr_ikebukuro": "23:29",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:25",
+   "arr_kotake": "23:44",
+   "arr_ikebukuro": "23:36",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:31",
+   "arr_kotake": "23:50",
+   "arr_ikebukuro": "23:42",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:38",
+   "arr_kotake": "23:57",
+   "arr_ikebukuro": "23:49",
+   "dest": "小手指"
+  },
+  {
+   "dep": "23:44",
+   "arr_kotake": "24:03",
+   "arr_ikebukuro": "23:55",
+   "dest": "和光市"
+  },
+  {
+   "dep": "23:52",
+   "arr_kotake": "24:11",
+   "arr_ikebukuro": "24:03",
+   "dest": "和光市"
+  },
+  {
+   "dep": "00:00",
+   "arr_kotake": "00:19",
+   "arr_ikebukuro": "00:11",
+   "dest": "和光市"
+  },
+  {
+   "dep": "00:11",
+   "arr_kotake": "00:30",
+   "arr_ikebukuro": "00:22",
+   "dest": "池袋"
+  },
+  {
+   "dep": "00:21",
+   "arr_kotake": "00:40",
+   "arr_ikebukuro": "00:32",
+   "dest": "池袋"
+  }
+ ],
+ "_meta": {
+  "station": "市ヶ谷 (Ichigaya)",
+  "line": "東京メトロ有楽町線 (Tokyo Metro Yurakucho Line)",
+  "direction": "和光市方面 (for Wakoshi / Kawagoe-shi, via Ikebukuro and Kotake-Mukaihara)",
+  "note_direction_order": "池袋 (Ikebukuro) is reached BEFORE 小竹向原 (Kotake-Mukaihara) in this direction, so arr_ikebukuro < arr_kotake for every train.",
+  "departures_source": {
+   "weekday": "Ekispert (駅すぱあと for web, roote.ekispert.net/timetable/train/22520/3340), current as of 2026-11-25; cross-checked hour by hour against Ekitan (ekitan.com, diagram revision 2026-03-14) - identical.",
+   "saturday": "NAVITIME depArrTimeList Ichigaya -> Ikebukuro, date=2026-11-28 (Sat), all trains 05:00-24:21.",
+   "holiday": "NAVITIME depArrTimeList Ichigaya -> Ikebukuro, date=2026-11-29 (Sun); verified identical to the Saturday list entry by entry, so saturday and holiday share one list."
+  },
+  "official_page_note": "The official Tokyo Metro station timetable page (tokyometro.jp/station/timetable.html) could not be extracted with a text fetch: without train parameters it returns only the station-search shell (JS-rendered), and the per-train URL returned HTTP 403. Departures were therefore taken from Ekispert and NAVITIME pages that republish the official diagram. First train 05:00 and last train 24:21 (00:21) for all three day types match NAVITIME's station FAQ.",
+  "running_time_min": {
+   "to_ikebukuro": 11,
+   "to_kotake_mukaihara": 19
+  },
+  "running_time_verification": "NAVITIME depArrTimeList checked on 2026-11-25 (Wed). Ichigaya -> Ikebukuro: 12:02 dep -> 12:13 arr = 11 min; 11 min for all daytime trains, 12-13 min on weekday evening-peak trains, 11-12 min on weekends. Ichigaya -> Kotake-Mukaihara: 18 min for Wakoshi/Kotetsu-bound and 19 min for Kawagoe-shi/Hoya-bound daytime trains (e.g. 12:02 -> 12:20, 12:20 -> 12:39), 20-22 min in the evening peak. Fixed values adopted for all trains: Ikebukuro +11 min, Kotake-Mukaihara +19 min.",
+  "arrival_accuracy": "arr_kotake / arr_ikebukuro are computed as dep + fixed minutes, not per-train scheduled arrivals. Expected deviation vs the real scheduled arrival: Ikebukuro 0 min daytime, up to +2 min later than shown in the weekday evening peak; Kotake-Mukaihara within 1 min daytime (1 min late for Wakoshi-bound trains), up to ~3 min later than shown in the evening peak.",
+  "counts": {
+   "weekday": 224,
+   "saturday": 192,
+   "holiday": 192
+  },
+  "extracted_at": "2026-11-25",
+  "dest_source": "Per-train destinations (行先) from NAVITIME depArrTimeList Ichigaya -> Edogawabashi (every Wakoshi-direction train stops at Edogawabashi, the first stop, so every departure appears with its destination), dates 2026-11-26 (Thu = weekday), 2026-11-28 (Sat), 2026-11-29 (Sun = holiday), fetched 2026-11-25. Cross-checked against the NAVITIME Ichigaya -> Wakoshi list: for every train that reaches Wakoshi (dest 和光市/志木/川越市/森林公園) the two lists agree. Same current diagram as the departure data (Ekitan revision 2026-03-14). Saturday and holiday destination lists were read in full and are identical train by train, matching the identical departure lists.",
+  "dest_notes": "NAVITIME prints 森林公園（埼玉県）; normalized here to 森林公園. dest is appended after the existing fields; dep/arr_kotake/arr_ikebukuro are unchanged. Note: for dest=池袋 trains (a few morning-peak and the last two trains of the day) arr_kotake remains the computed dep+19 value even though the train terminates at Ikebukuro and never reaches Kotake-Mukaihara - use dest, not arr_kotake, to judge through service.",
+  "seibu_through_definition": "A train is a Seibu through service (直通) iff its dest is a Seibu Ikebukuro Line station beyond Kotake-Mukaihara: 石神井公園, 保谷, 清瀬, 所沢, 小手指, 飯能. Such trains pass Kotake-Mukaihara without a change and stop at 保谷 (except 石神井公園-bound trains, which terminate one stop before 保谷 but still run through Kotake-Mukaihara onto the Seibu line). dest=和光市 terminates inside the Metro line; dest=志木/川越市/森林公園 are Tobu Tojo Line through services via Wakoshi; all three require a change at Kotake-Mukaihara (or Ikebukuro) for 保谷. dest=池袋 terminates at Ikebukuro, before Kotake-Mukaihara.",
+  "dest_added_at": "2026-11-25"
+ }
+}
