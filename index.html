@@ -626,7 +626,7 @@ function computeHome(now){
   if(maxStopPos>=0) endStopPos = Math.min(stopping.length-1, maxStopPos+1);
   else { const f = stopping.findIndex(t=>t.depTs>=nowTs); endStopPos = Math.min(stopping.length-1, (f<0?stopping.length-1:f)+5); }
   const endTrain = stopping[endStopPos];
-  const endIdx = endTrain ? full.indexOf(endTrain) : full.length-1;
+  let endIdx = endTrain ? full.indexOf(endTrain) : full.length-1;
   let startIdx = full.findIndex(t=>t.depTs >= nowTs - 12*MIN);
   if(startIdx<0 || startIdx>endIdx) startIdx = Math.max(0, endIdx-8);
   /* 营业日界：相邻班次间隔 >90 分视为当日服务结束，牌面不跨夜滚入次日 */
@@ -647,6 +647,7 @@ function computeStation(now){
   let stopCount = 0;
   for(const t of full){
     if(t.depTs < nowTs) continue;
+    if(midnightTs(new Date(t.depTs))!==midnightTs(now) && t.depTs - nowTs > 90*MIN) break; /* 次日班次且不在 90 分内 = 当日服务已结束 */
     if(rows.length && t.depTs - rows[rows.length-1].depTs > 90*MIN) break; /* 当日服务结束，不滚入次日 */
     rows.push(t);
     if(t.stops){ stopCount++; if(stopCount>=6) break; }
@@ -693,7 +694,7 @@ function computeWorkIkebukuro(now){
     else endPos = Math.min(seq.length-1, 6);
     rows = seq.slice(0, endPos+1);
   } else {
-    rows = back.filter(b=>b.depTs>=nowTs).slice(0,6);
+    rows = back.filter(b=>b.depTs>=nowTs && (midnightTs(new Date(b.depTs))===midnightTs(now) || b.depTs - nowTs <= 90*MIN)).slice(0,6); /* 只列当日（或 90 分内的跨夜班次） */
   }
   const headerX = anchor ? Math.max(0, Math.round((anchor-nowTs)/MIN)) : null;
   return { trains:trains, conns:conns, busRows:rows, headerX:headerX };
@@ -708,7 +709,8 @@ function computeWorkIchigaya(now){
     if(DIRECT_HOYA_DESTS.indexOf(m.dest)>=0){
       cat = "direct";
       /* 直通车本身即小竹向原下行表中的一班：到小竹前后 1 分内发出的即本车 */
-      const cont = firstAtOrAfter(kd, m.arrKotakeTs - 1*MIN);
+      const cont0 = firstAtOrAfter(kd, m.arrKotakeTs - 1*MIN);
+      const cont = (cont0 && cont0.depTs - m.arrKotakeTs <= 5*MIN) ? cont0 : null; /* 窗口外 = 次日班次，不是本车 */
       arrHoya = cont ? cont.arrHoyaTs : m.arrKotakeTs + 18*MIN;
     } else if(m.dest==="石神井公園"){
       cat = "shakujii";
@@ -716,15 +718,17 @@ function computeWorkIchigaya(now){
          到小竹向原 +1 分発・各停口径 +14 分で石神井着を推定し、石神井を +2 分以降に通過する
          次の下行列車（到保谷時刻から準急5分/各停6分を逆算）に乗り換える口径。 */
       const tShak = m.arrKotakeTs + 15*MIN;
-      const cont = downMerged.find(t=> (t.arrHoyaTs - (t.type==="準急" ? 5 : 6)*MIN) >= tShak + 2*MIN);
+      const cont = downMerged.find(t=> (t.arrHoyaTs - (t.type==="準急" ? 5 : 6)*MIN) >= tShak + 2*MIN && (t.arrHoyaTs - (t.type==="準急" ? 5 : 6)*MIN) <= tShak + 32*MIN); /* 32 分窗口外 = 次日班次 */
       arrHoya = cont ? cont.arrHoyaTs : tShak + 13*MIN;
     } else if(m.dest==="池袋"){
       cat = "ikebukuro";
-      const cont = firstAtOrAfter(idl, m.arrIkeTs + 4*MIN);
+      const cont0 = firstAtOrAfter(idl, m.arrIkeTs + 4*MIN);
+      const cont = (cont0 && cont0.depTs - m.arrIkeTs <= 34*MIN) ? cont0 : null; /* 窗口外 = 次日班次 */
       arrHoya = cont ? cont.arrHoyaTs : null;
     } else {
       cat = "kotake";
-      const cont = firstAtOrAfter(kd, m.arrKotakeTs + 2*MIN);
+      const cont0 = firstAtOrAfter(kd, m.arrKotakeTs + 2*MIN);
+      const cont = (cont0 && cont0.depTs - m.arrKotakeTs <= 32*MIN) ? cont0 : null; /* 窗口外 = 次日班次 */
       arrHoya = cont ? cont.arrHoyaTs : null;
     }
     return { depTs:m.depTs, dest:m.dest, arrKotakeTs:m.arrKotakeTs, arrIkeTs:m.arrIkeTs, cat:cat, arrHoyaTs:arrHoya };
@@ -750,7 +754,7 @@ function computeWorkIchigaya(now){
     else endPos = Math.min(seq.length-1, 6);
     rows = seq.slice(0, endPos+1);
   } else {
-    rows = back.filter(b=>b.depTs>=nowTs).slice(0,6);
+    rows = back.filter(b=>b.depTs>=nowTs && (midnightTs(new Date(b.depTs))===midnightTs(now) || b.depTs - nowTs <= 90*MIN)).slice(0,6); /* 只列当日（或 90 分内的跨夜班次） */
   }
   const headerX = anchor ? Math.max(0, Math.round((anchor-nowTs)/MIN)) : null;
   return { trains:trains, conns:conns, busRows:rows, headerX:headerX };
