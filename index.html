@@ -653,7 +653,7 @@ function computeStation(now){
   }
   const back = busBackAround(nowTs);
   const prev = lastBefore(back, nowTs);
-  const next4 = back.filter(b=>b.depTs>=nowTs).slice(0,4);
+  const next4 = back.filter(b=>b.depTs>=nowTs && midnightTs(new Date(b.depTs))===midnightTs(now)).slice(0,4); /* 只列当日，不滚入次日首班 */
   const buses = [];
   if(prev && nowTs - prev.depTs <= 90*MIN) buses.push({ depTs:prev.depTs, missed:true, last:prev.isLastOfDay && prev.sameDay });
   next4.forEach((b,i)=>buses.push({ depTs:b.depTs, missed:false, last:b.isLastOfDay && b.sameDay,
