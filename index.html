@@ -249,6 +249,13 @@
   #widgetView .w-sub{font-size:12.5px; color:var(--mut); margin-top:2px;}
   html[data-hatch-size="small"] #widgetView .w-time{font-size:36px;}
   html[data-hatch-size="small"] #widgetView .w-cd{font-size:24px;}
+  /* full-bleed on phone widths + GPS UI retired */
+  #gpsStat{display:none;}
+  .lockline{display:none;}
+  @media(max-width:900px){
+    body{max-width:none;}
+    #tabs{max-width:none;}
+  }
   @media(max-width:560px){
     .toolrow{gap:6px;}
     .toolrow button{font-size:11.5px; letter-spacing:.04em; padding:0 4px;}
@@ -337,7 +344,7 @@
     <div class="field">
       <label for="selWorkStation">公司侧车站</label>
       <select id="selWorkStation"></select>
-      <div class="hint">公司页与家页「推奨」的到达站按此站计算。切换公司侧车站时，若公司锚点仍是出厂公共点，会自动跟随到新站站体；已用当前位置捕获的锚点不会被改动。</div>
+      <div class="hint">公司页与家页「推奨」的到达站按此站计算。</div>
     </div>
     <div class="field">
       <div class="hint">站点库可扩展：选择器只列出已有完整时刻表数据的车站。新增车站的数据格式见项目仓库 data 目录，补齐时刻表后该站才会出现在选择器中。</div>
@@ -361,15 +368,8 @@
       <input type="text" id="inKey" autocomplete="off" placeholder="未设置时仅用静态时刻表" />
       <div class="hint">设置后可获取西武铁道和东京地铁的延误信息。获取失败时自动仅用静态时刻表。申请方法见“使用指南”。</div>
     </div>
-    <div class="field">
-      <label>位置锚点（车站 400m 优先判定，其次家／公司 800m）</label>
-      <button class="sub" id="btnSaveHomePos" type="button">把当前位置保存为「家」</button>
-      <button class="sub" id="btnSaveStationPos" type="button">把当前位置保存为「车站」</button>
-      <button class="sub" id="btnSaveWorkPos" type="button">把当前位置保存为「公司」</button>
-      <div class="hint" id="anchorInfo">—</div>
-    </div>
     <button class="act" id="btnSaveSettings" type="button">保存并返回</button>
-    <button class="sub" id="btnResetSettings" type="button">恢复出厂默认（步行 3/7/3 分钟・保谷／市ヶ谷・公共锚点）</button>
+    <button class="sub" id="btnResetSettings" type="button">恢复出厂默认（步行 3/7/3 分钟・保谷／市ヶ谷）</button>
     <button class="sub" id="btnBackFromSettings" type="button">返回</button>
   </section>
 
@@ -382,8 +382,8 @@
     <p>用 Android 的 Chrome 打开本页，点右上角菜单（︙）→「添加到主屏幕」，就能像 App 一样全屏打开。三页（家／保谷站／公司）用底部页签切换；打开时直接显示上次停留的页面，不等定位。</p>
     <div class="en">02 — BOARD + ARROWS</div>
     <p>家页和公司页都是「时刻牌＋箭头」：左列是你的出发车次，右列是到站后的完整时刻牌（赶不上的置灰保留、通过车折叠成细条）。细箭头只表示物理上第一班能接上的车，不含偏好；青绿「推奨」框是另一回事——按直通优先、换乘方案必须早到市谷 15 分钟以上才翻盘的规则单独算出。公司页每班电车行内直接写明直达保谷／小竹向原換／石神井換（防坐過站）与到保谷时刻，箭头上标净等车分钟。</p>
-    <div class="en">03 — GPS HINT + LOCK</div>
-    <p>GPS 永远不强行切页：进入某个锚点范围时只在顶部出一条细提示，点它才切换（10 秒后自动收起）。手动点页签后锁定 30 分钟（页签下方有 LOCK 倒计时），期间不再提示，防止围栏漂移来回跳。</p>
+    <div class="en">03 — MANUAL SWITCH</div>
+    <p>三页之间用底部页签手动切换。本软件不使用定位、不自动切页；打开时停在上次看的那一页，首屏默认页按时间段给出。</p>
     <p>锚点提醒：出厂默认的家／公司锚点落在保谷庁舎前巴士站、所选车站站体等公共地点，只是占位。请到「设置 SETTINGS」里，在自己家和公司分别点「把当前位置保存为『家』／『公司』」，把锚点换成你自己的位置，GPS 提示才会对得上。</p>
     <div class="en">04 — ODPT KEY（延误信息・可选）</div>
     <ol>
@@ -1034,23 +1034,7 @@ function showGpsHint(sug){
   gpsHintTimer = setTimeout(hideGpsHint, 10000);
 }
 function hideGpsHint(){ $("gpsHint").classList.remove("show"); if(gpsHintTimer){ clearTimeout(gpsHintTimer); gpsHintTimer = null; } }
-function locate(){
-  if(!navigator.geolocation){ $("gpsStat").textContent = "GPS — 不支持定位"; return; }
-  navigator.geolocation.getCurrentPosition(pos=>{
-    lastPos = {lat:pos.coords.latitude, lon:pos.coords.longitude};
-    const dS = distM(lastPos.lat,lastPos.lon, settings.station.lat, settings.station.lon);
-    const dH = distM(lastPos.lat,lastPos.lon, settings.home.lat, settings.home.lon);
-    const dW = distM(lastPos.lat,lastPos.lon, settings.work.lat, settings.work.lon);
-    let sug = null;
-    if(dS <= 400) sug = {mode:"station", label:homeStation().name+"站"};
-    else if(dH <= 800) sug = {mode:"home", label:"家"};
-    else if(dW <= 800) sug = {mode:"work", label:"公司"};
-    const near = sug ? sug.label+"附近" : "区域外";
-    $("gpsStat").innerHTML = "GPS — <b>"+near+"</b>（家 "+Math.round(dH)+"m / 站 "+Math.round(dS)+"m / 公司 "+Math.round(dW)+"m）";
-    if(sug && sug.mode !== mode && lockRemainMs() <= 0) showGpsHint(sug);
-  }, ()=>{ $("gpsStat").textContent = "GPS — 无法获取定位（可手动切换）"; },
-  { enableHighAccuracy:true, timeout:10000, maximumAge:60000 });
-}
+function locate(){ /* GPS removed by user decision 2026-11-25: manual page switching only. */ }
 $("gpsHintTxt").addEventListener("click", ()=>{ if(gpsSuggestion) setMode(gpsSuggestion.mode, true); });
 $("gpsHintX").addEventListener("click", hideGpsHint);
 
@@ -1104,7 +1088,7 @@ function fillSettings(){
   $("inWalkWork").value = settings.walkWork;
   $("inWalkStation").value = settings.walkStation;
   $("inKey").value = settings.odptKey||"";
-  $("anchorInfo").textContent = "家: "+settings.home.lat.toFixed(4)+", "+settings.home.lon.toFixed(4)+" / 车站: "+settings.station.lat.toFixed(4)+", "+settings.station.lon.toFixed(4)+" / 公司: "+settings.work.lat.toFixed(4)+", "+settings.work.lon.toFixed(4);
+  /* anchorInfo removed with GPS */
 }
 $("tabHome").addEventListener("click", ()=>{ show("board"); setMode("home", true); });
 $("tabStation").addEventListener("click", ()=>{ show("board"); setMode("station", true); });
@@ -1138,14 +1122,7 @@ $("btnResetSettings").addEventListener("click", ()=>{
   const keep = { lastMode:settings.lastMode, lockUntil:settings.lockUntil };
   settings = Object.assign(JSON.parse(JSON.stringify(DEFAULTS)), keep); saveSettings(); fillSettings(); render();
 });
-function savePos(which){
-  const apply = p => { settings[which] = {lat:p.coords.latitude, lon:p.coords.longitude}; saveSettings(); fillSettings(); locate(); };
-  if(lastPos){ settings[which] = {lat:lastPos.lat, lon:lastPos.lon}; saveSettings(); fillSettings(); return; }
-  if(navigator.geolocation) navigator.geolocation.getCurrentPosition(apply, ()=>{}, {enableHighAccuracy:true, timeout:10000});
-}
-$("btnSaveHomePos").addEventListener("click", ()=>savePos("home"));
-$("btnSaveStationPos").addEventListener("click", ()=>savePos("station"));
-$("btnSaveWorkPos").addEventListener("click", ()=>savePos("work"));
+/* position anchors removed with GPS (2026-11-25) */
 
 /* ===== 前台恢复：立即按本地时钟重算，不露旧帧 ===== */
 document.addEventListener("visibilitychange", ()=>{ if(!document.hidden){ render(); tick(); locate(); } });

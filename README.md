@@ -21,8 +21,8 @@
 - **職場ページ** — 帰り道のための鏡像。自宅の最寄り駅まで行かない
   電車は、その行に乗り換え駅と到着時刻を明記します。隠れた乗り換えは
   ありません。
-- GPSが画面を乗っ取ることはありません。駅のジオフェンスに入っても
-  細いヒントバーが出るだけ。手動で選んだページは30分間ロックされます。
+- ページ切り替えは完全手動です。位置情報は使いません。開いたときは
+  前回見ていたページがそのまま表示されます。
 - 静的時刻表だけで完全オフライン動作。ODPTのコンシューマーキーを
   設定すれば、対応区間でリアルタイム層も有効化できます。
 
@@ -39,8 +39,7 @@ Live site: https://powergx-yu.github.io/MobilityInformation/
 駅と時刻表は `data/` にプレーンな JSON として置かれ、アプリのロジックは
 駅に依存しません。同梱駅：保谷（西武池袋線＋地域バス）、池袋、
 小竹向原、市ヶ谷（有楽町線）。既定のサンプルプロファイルは
-保谷 ⇄ 市ヶ谷です。設定で両端の駅を変更し、自宅／職場のアンカーは
-GPSキャプチャで自分の場所に設定してください。
+保谷 ⇄ 市ヶ谷です。設定で両端の駅を変更できます。
 
 駅を追加するには、ドキュメント化された形式で時刻表ファイルを作成します。
 [tools/DATA.md](tools/DATA.md) を参照してください。
@@ -81,8 +80,8 @@ into the arrows.
 - **Work page** — the mirror image for the way home. Trains that don't
   reach your home station say so on their row, with the transfer point
   and the resulting arrival time printed inline. No hidden transfers.
-- GPS never hijacks the screen: entering a station's geofence only raises
-  a slim hint bar. A manually chosen page locks for 30 minutes.
+- Page switching is fully manual — the app never uses your location.
+  It reopens on the page you last looked at.
 - Works fully offline on static timetables. An optional ODPT consumer key
   (Settings) enables a live layer where supported.
 
