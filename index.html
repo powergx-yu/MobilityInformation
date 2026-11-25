@@ -256,6 +256,8 @@
     body{max-width:none;}
     #tabs{max-width:none;}
   }
+  html.fullbleed body{max-width:none;}
+  html.fullbleed #tabs{max-width:none;}
   @media(max-width:560px){
     .toolrow{gap:6px;}
     .toolrow button{font-size:11.5px; letter-spacing:.04em; padding:0 4px;}
@@ -1037,6 +1039,16 @@ function hideGpsHint(){ $("gpsHint").classList.remove("show"); if(gpsHintTimer){
 function locate(){ /* GPS removed by user decision 2026-11-25: manual page switching only. */ }
 $("gpsHintTxt").addEventListener("click", ()=>{ if(gpsSuggestion) setMode(gpsSuggestion.mode, true); });
 $("gpsHintX").addEventListener("click", hideGpsHint);
+
+/* ===== 屏幕自适应：按真实屏幕尺寸判定，手机一律满幅 ===== */
+function applyScreenFit(){
+  const sw = (window.screen && screen.width) ? screen.width : 9999;
+  const iw = window.innerWidth || 9999;
+  document.documentElement.classList.toggle("fullbleed", Math.min(sw, iw) <= 1100);
+}
+window.addEventListener("resize", applyScreenFit);
+window.addEventListener("orientationchange", applyScreenFit);
+applyScreenFit();
 
 /* ===== ODPT 延误信息（可选・失败时静默） ===== */
 async function fetchDelays(){
