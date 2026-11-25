@@ -538,7 +538,7 @@ function nextBuses(listObj, afterTs, n){
 /* 保谷→池袋 分种别（现版口径，NAVITIME 实测样本） */
 const IKE_MIN = {"準急":18, "各停":26, "通勤急行":18, "通勤準急":23, "S-TRAIN":17};
 /* 保谷→小竹向原 分种别（规格口径） */
-const KOTAKE_MIN = {"準急":11, "各停":15, "通勤急行":11, "通勤準急":13, "S-TRAIN":10};
+const KOTAKE_MIN = {"準急":17, "各停":18, "通勤急行":11, "通勤準急":13, "S-TRAIN":10}; /* 準急17/各停18 = 线路模型实测累积（保谷→練馬→支线→小竹向原），2026-11-25 裁定替换原手调值 11/15 */
 const YURAKUCHO_DESTS = ["新木場","豊洲"];
 const FUKUTOSHIN_DESTS = ["元町・中華街","横浜","元住吉","武蔵小杉","菊名"];
 const DIRECT_HOYA_DESTS = ["保谷","清瀬","所沢","小手指","飯能"];
