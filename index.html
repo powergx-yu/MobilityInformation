@@ -8,8 +8,8 @@
 <meta name="mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-<link rel="icon" href="data:," />
-<link rel="manifest" href='data:application/manifest+json,{"name":"モビリティインフォメーション","short_name":"モビリティ","display":"standalone","background_color":"%23050505","theme_color":"%23050505"}' />
+<link rel="icon" type="image/svg+xml" href="icon.svg" />
+<link rel="manifest" href="manifest.webmanifest" />
 <title>モビリティインフォメーション</title>
 <script id="hatch-space-target">
     (() => {
@@ -1667,6 +1667,13 @@ setInterval(tick, 1000);
 setInterval(render, 30000);
 locate();
 fetchDelays();
+</script>
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  });
+}
 </script>
 </body>
 </html>

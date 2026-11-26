@@ -1,0 +1,1 @@
+{"background_color":"#050505","description":"自宅・保谷駅・勤務先の発車標","display":"standalone","icons":[{"purpose":"any","sizes":"any","src":"icon.svg","type":"image/svg+xml"},{"purpose":"maskable","sizes":"any","src":"icon-maskable.svg","type":"image/svg+xml"}],"name":"モビリティインフォメーション","orientation":"portrait","scope":".","short_name":"モビリティ","start_url":".","theme_color":"#050505"}
