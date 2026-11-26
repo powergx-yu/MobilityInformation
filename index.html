@@ -226,8 +226,8 @@
   .lk-btn:active{background:#261a40;}
   /* ---------- panels ---------- */
   .panel{display:none; padding-bottom:24px;}
-  .panel.show{display:block;}
-  .panel-head{display:flex; justify-content:space-between; align-items:center; gap:10px; border-bottom:1px solid var(--org-dim); padding-bottom:8px; margin:8px 0 12px;}
+  .panel.show{display:block; position:fixed; inset:0; z-index:90; background:#050505; overflow-y:auto; zoom:var(--fit,1); padding:12px 12px calc(28px + env(safe-area-inset-bottom));}
+  .panel-head{display:flex; justify-content:space-between; align-items:center; gap:10px; border-bottom:1px solid var(--org-dim); padding:10px 0 8px; margin:0 0 12px; position:sticky; top:-12px; background:#050505; z-index:1;}
   .panel h2{font-family:var(--serif); color:#fff; font-size:20px; letter-spacing:.08em; margin:0;}
   .panel h2 .o{color:var(--org);}
   .panel-close{background:#16120b; color:var(--org-bright); border:1px solid var(--org-dim); font-family:var(--mono); font-size:12.5px; font-weight:700; padding:6px 12px; min-height:36px; white-space:nowrap; letter-spacing:.08em;}
@@ -1578,6 +1578,8 @@ $("tabWork").addEventListener("click", ()=>{ show("board"); setMode("work", true
 $("btnReload").addEventListener("click", ()=>{ locate(); fetchDelays(); render(); });
 $("btnSettings").addEventListener("click", ()=>{ fillSettings(); show("settings"); });
 $("btnGuide").addEventListener("click", ()=>show("guide"));
+/* 設定・使い方パネルは全画面オーバーレイ表示のため body 直下へ移す */
+["settingsPanel","guidePanel"].forEach(id=>document.body.appendChild($(id)));
 $("btnGear").addEventListener("click", e=>{ e.stopPropagation(); $("gearMenu").classList.toggle("show"); });
 ["btnSettings","btnGuide","btnReload"].forEach(id=>$(id).addEventListener("click", ()=>$("gearMenu").classList.remove("show")));
 document.addEventListener("click", e=>{ const m=$("gearMenu"); if(m.classList.contains("show") && !m.contains(e.target)) m.classList.remove("show"); });
