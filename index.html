@@ -205,7 +205,14 @@
     max-width:640px; margin:0 auto; border-left:1px solid var(--org-dim); border-right:1px solid var(--org-dim);
     box-shadow:0 -8px 26px rgba(0,0,0,.85);
     padding-bottom: env(safe-area-inset-bottom);}
-  #tabs .tabrow{display:grid; grid-template-columns:1fr 1fr 1fr;}
+  #tabs .tabrow{display:grid; grid-template-columns:1fr 1fr 1fr auto;}
+#btnGear{display:flex; align-items:center; justify-content:center; padding:9px 14px 7px;}
+#btnGear svg{width:22px; height:22px; fill:var(--mut);}
+#btnGear:active svg{fill:var(--org-bright);}
+#gearMenu{position:fixed; right:8px; bottom:calc(64px * var(--fit,1) + env(safe-area-inset-bottom)); z-index:60; display:none; flex-direction:column; gap:6px; background:#0a0a0e; border:1px solid var(--org-dim); padding:8px; box-shadow:0 6px 24px rgba(0,0,0,.6);}
+#gearMenu.show{display:flex;}
+#gearMenu button{background:#0d0d12; color:var(--ink); border:1px solid var(--line); border-top:2px solid var(--org-dim); font-size:13px; font-weight:700; min-height:42px; padding:0 22px; letter-spacing:.1em; font-family:var(--mono); white-space:nowrap;}
+#gearMenu button:active{background:#18130a; border-color:var(--org);}
   #tabs button{background:none; border:none; border-right:1px solid var(--line); padding:9px 4px 7px; min-height:54px; text-align:center;}
   #tabs button:last-child{border-right:none;}
   #tabs .t1{font-family:var(--serif); font-weight:900; font-size:16px; color:var(--mut); line-height:1.2;}
@@ -333,11 +340,6 @@
   <div id="delayBanner" role="status"></div>
 
   <div id="boardView">
-    <div class="toolrow">
-      <button id="btnSettings" type="button">設定</button>
-      <button id="btnGuide" type="button">使い方</button>
-      <button id="btnReload" type="button">再読込</button>
-    </div>
     <div id="board"></div>
     <footer>
       静的時刻表（西武バス / 西武鉄道 / 東京メトロ）に基づく表示。非アンカー駅の発車標は西武池袋線＋有楽町線の路線モデルで生成（アンカー駅は実測時刻表）。矢印＝到着後に物理的に最初に接続できる便。青緑の「推奨」は直通優先＋乗換は15分以上早く着く場合のみ採用するルールで別に算出し、両者を分けて表示します。ODPTキーを設定すると、西武と東京メトロの運行情報（遅延）が上部に表示されます。時刻は端末の時計基準で、すべてブラウザ内で計算します。
@@ -417,10 +419,17 @@
     <button id="tabHome" type="button"><div class="t1">自宅</div><div class="t2">出発</div></button>
     <button id="tabStation" type="button"><div class="t1">保谷駅</div><div class="t2">中継</div></button>
     <button id="tabWork" type="button"><div class="t1">勤務先</div><div class="t2">帰還</div></button>
+    <button id="btnGear" type="button" aria-label="メニュー"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M19.14 12.94c.04-.3.06-.61.06-.94 0-.32-.02-.64-.07-.94l2.03-1.58c.18-.14.23-.41.12-.61l-1.92-3.32c-.12-.22-.37-.29-.59-.22l-2.39.96c-.5-.38-1.03-.7-1.62-.94l-.36-2.54c-.04-.24-.24-.41-.48-.41h-3.84c-.24 0-.43.17-.47.41l-.36 2.54c-.59.24-1.13.57-1.62.94l-2.39-.96c-.22-.08-.47 0-.59.22L2.74 8.87c-.12.21-.08.47.12.61l2.03 1.58c-.05.3-.09.63-.09.94s.02.64.07.94l-2.03 1.58c-.18.14-.23.41-.12.61l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.5.38 1.03.7 1.62.94l.36 2.54c.05.24.24.41.48.41h3.84c.24 0 .44-.17.47-.41l.36-2.54c.59-.24 1.13-.56 1.62-.94l2.39.96c.22.08.47 0 .59-.22l1.92-3.32c.12-.22.07-.47-.12-.61l-2.01-1.58zM12 15.6c-1.98 0-3.6-1.62-3.6-3.6s1.62-3.6 3.6-3.6 3.6 1.62 3.6 3.6-1.62 3.6-3.6 3.6z"/></svg></button>
   </div>
   <div class="lockline"><span id="lockLeft">GPS提案：有効</span><button class="lk-btn" id="lockRight" type="button" title="クリックで30分の固定を早期解除" style="display:none;"></button></div>
   </div>
 </nav>
+
+<div id="gearMenu" role="menu">
+  <button id="btnSettings" type="button">設定</button>
+  <button id="btnGuide" type="button">使い方</button>
+  <button id="btnReload" type="button">再読込</button>
+</div>
 
 <script>
 "use strict";
@@ -1546,9 +1555,32 @@ function fillSettings(){
 $("tabHome").addEventListener("click", ()=>{ show("board"); setMode("home", true); });
 $("tabStation").addEventListener("click", ()=>{ show("board"); setMode("station", true); });
 $("tabWork").addEventListener("click", ()=>{ show("board"); setMode("work", true); });
+/* 左右スワイプでページ切替（ボード表示時のみ・縦スクロールやボタン操作と競合させない） */
+(function(){
+  const ORDER = ["home","station","work"];
+  let sx=0, sy=0, tracking=false;
+  document.addEventListener("touchstart", e=>{
+    if(currentView!=="board" || e.touches.length!==1){ tracking=false; return; }
+    if(e.target.closest("select,input,textarea,button,a,#tabs")){ tracking=false; return; }
+    sx = e.touches[0].clientX; sy = e.touches[0].clientY; tracking = true;
+  }, {passive:true});
+  document.addEventListener("touchend", e=>{
+    if(!tracking) return; tracking = false;
+    if(currentView!=="board") return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - sx, dy = t.clientY - sy;
+    if(Math.abs(dx) < 60 || Math.abs(dx) < Math.abs(dy)*1.6) return;
+    const i = ORDER.indexOf(mode);
+    const n = dx < 0 ? Math.min(ORDER.length-1, i+1) : Math.max(0, i-1);
+    if(n !== i) setMode(ORDER[n], true);
+  }, {passive:true});
+})();
 $("btnReload").addEventListener("click", ()=>{ locate(); fetchDelays(); render(); });
 $("btnSettings").addEventListener("click", ()=>{ fillSettings(); show("settings"); });
 $("btnGuide").addEventListener("click", ()=>show("guide"));
+$("btnGear").addEventListener("click", e=>{ e.stopPropagation(); $("gearMenu").classList.toggle("show"); });
+["btnSettings","btnGuide","btnReload"].forEach(id=>$(id).addEventListener("click", ()=>$("gearMenu").classList.remove("show")));
+document.addEventListener("click", e=>{ const m=$("gearMenu"); if(m.classList.contains("show") && !m.contains(e.target)) m.classList.remove("show"); });
 $("btnBackFromSettings").addEventListener("click", ()=>show("board"));
 $("btnBackFromGuide").addEventListener("click", ()=>show("board"));
 $("btnCloseSettings").addEventListener("click", ()=>show("board"));
