@@ -354,7 +354,7 @@
     <div class="field">
       <label for="selBusStop">バス停（自宅側）</label>
       <select id="selBusStop"></select>
-      <div class="hint">自宅ページ左列のバスはこの停留所の発車です。保谷庁舎前と、保谷〜池袋・西部の主要駅の駅前西武バス停を収録（全系統の合并発車表、時刻は公開の停留所時刻表がソース）。江古田・東長崎・椎名町の駅前に西武バスはありません。バスと電車の接続は「バス時刻＋3分（停留所→ホーム）」で見積もります。</div>
+      <div class="hint">自宅ページ左列のバスはこの停留所の発車です。保谷庁舎前と、保谷〜池袋・西部の主要駅の駅前西武バス停を収録（全系統の合并発車表、時刻は公開の停留所時刻表がソース）。江古田・東長崎・椎名町の駅前に西武バスはありません。</div>
     </div>
     <div class="field">
       <label for="selStationA">駅 A（自宅側の駅）</label>
@@ -367,26 +367,12 @@
       <div class="hint">勤務先ページの発車標と、自宅ページ「推奨」の到着駅はこの駅で計算します。</div>
     </div>
     <div class="field">
-      <label for="inWalkHome" id="labWalkHome">自宅 → 保谷庁舎前バス停（分）</label>
-      <input type="number" id="inWalkHome" min="0" max="30" step="1" inputmode="numeric" />
-    </div>
-    <div class="field">
-      <label for="inWalkWork" id="labWalkWork">勤務先 → 市ヶ谷駅（分）</label>
-      <input type="number" id="inWalkWork" min="5" max="8" step="1" inputmode="numeric" />
-      <div class="hint" id="hintWalkWork">目安 5～8 分。勤務先ページ左列には設定どおりこの目安を表示します。発車標の列車は市ヶ谷の発車時刻が基準です。</div>
-    </div>
-    <div class="field">
-      <label for="inWalkStation" id="labWalkStation">保谷駅 → 南口バス停（分）</label>
-      <input type="number" id="inWalkStation" min="0" max="15" step="1" inputmode="numeric" />
-      <div class="hint">駅ページのバス「残り X 分」は、このホームへ戻る徒歩の余裕を差し引いた正味の余裕です。</div>
-    </div>
-    <div class="field">
       <label for="inKey">ODPT コンシューマーキー（任意）</label>
       <input type="text" id="inKey" autocomplete="off" placeholder="未設定のときは静的時刻表のみ使用" />
       <div class="hint">設定すると西武鉄道と東京メトロの遅延情報を取得します。取得に失敗したときは自動で静的時刻表のみに切り替わります。申請方法は「使い方」を参照。</div>
     </div>
     <button class="act" id="btnSaveSettings" type="button">保存して戻る</button>
-    <button class="sub" id="btnResetSettings" type="button">初期設定に戻す（徒歩 3/7/3 分・庁舎前／保谷／市ヶ谷）</button>
+    <button class="sub" id="btnResetSettings" type="button">初期設定に戻す（庁舎前／保谷／市ヶ谷）</button>
     <button class="sub" id="btnBackFromSettings" type="button">戻る</button>
   </section>
 
@@ -401,7 +387,7 @@
     <p>自宅ページと勤務先ページはどちらも「発車標＋矢印」です。左列があなたの出発便、右列が到着後の全発車標（間に合わない便はグレーで残し、通過列車は細い帯に折りたたみ）。細い矢印は物理的に最初に乗れる便だけを示し、好みは含みません。青緑の「推奨」枠は別物で、直通優先・乗換案は市ヶ谷に15分以上早く着く場合だけ採用するルールで単独に算出します。勤務先ページでは各列車の行内に、保谷まで直通／小竹向原換／石神井換（座り過ごし防止）と保谷到着時刻を直接書き、矢印には正味の待ち分を表示します。</p>
     <div class="en">03 — 手動切替</div>
     <p>3ページの切り替えは下部タブで手動です。本ソフトは測位を使わず、自動でページを切り替えません。開いたときは前回見ていたページに留まり、初回の既定ページは時間帯で決まります。</p>
-    <p>アンカーについての注意：初期設定の自宅／勤務先は保谷庁舎前バス停など公共の場所に置いた仮のものです。「設定」でバス停・駅 A・駅 B と徒歩時間を自分の環境に合わせて変更してください。</p>
+    <p>アンカーについての注意：初期設定の自宅／勤務先は保谷庁舎前バス停など公共の場所に置いた仮のものです。「設定」でバス停・駅 A・駅 B を自分の環境に合わせて変更してください。</p>
     <div class="en">04 — ODPTキー（遅延情報・任意）</div>
     <ol>
       <li>developer.odpt.org（公共交通オープンデータ開発者サイト）にアクセスし、無料アカウントを登録します。</li>
@@ -504,7 +490,7 @@ const BUS_LINKS = {
   "tokorozawa-higashi": { stopName:"所沢駅東口", stopLabel:"所沢駅東口", stationId:"S:所沢", stationName:"所沢", rideMin:3, outKey:"bus_tokorozawa-higashi", backKey:"bus_tokorozawa-higashi" },
   "irumashi": { stopName:"入間市駅", stopLabel:"入間市駅", stationId:"S:入間市", stationName:"入間市", rideMin:3, outKey:"bus_irumashi", backKey:"bus_irumashi" },
 };
-const DEFAULTS = { walkHome:3, walkWork:7, walkStation:3, odptKey:"",
+const DEFAULTS = { odptKey:"",
   busStop:"hoya-chosha", stationA:"S:保谷", stationB:"Y:市ヶ谷",
   lastMode:"", lockUntil:0 };
 function stationById(id){ return STATION_LIST.find(s=>s.id===id) || STATION_LIST.find(s=>s.id==="S:保谷"); }
@@ -610,7 +596,7 @@ function busArrTsList(depTs, offs, rideMin){
   const list = offs && offs.length ? offs : [null];
   return list.map(o => depTs + (o == null ? rideMin : o) * MIN);
 }
-/* バス用：afterTs 以降の n 本（現行口径を踏襲：自宅ページは徒歩の前倒しで絞る） */
+/* バス用：afterTs 以降の n 本（徒歩時間の前倒しはしない、現在時刻からそのまま） */
 function nextBuses(listObj, afterTs, n, key){
   const out = []; const base = new Date(afterTs);
   for(let off=0; off<=1 && out.length<n; off++){
@@ -1089,7 +1075,7 @@ function computeHome(now){
   const stopping = full.filter(t=>t.stops);
   let buses = [], conns = [];
   if(isLinked){
-    buses = nextBuses(DATA[link.outKey], nowTs + settings.walkHome*MIN, 3, link.outKey);
+    buses = nextBuses(DATA[link.outKey], nowTs, 3, link.outKey);
     conns = buses.map(b=>{
       if(isTomorrow(b.ts, now)) return { bus:b, phys:null, rec:null, recArr:null, waitMin:null }; /* 翌日の始発バスは参照のみ、接続/発車標の範囲には入れない */
       /* 到着は実測オフセット口径（固定 rideMin は廃止）：phys/待ち は最も早く着く系統での物理接続、推奨は同一分の最も遅く着く系統でも間に合う便（どのバスに乗っても成立） */
@@ -1140,9 +1126,9 @@ function computeStation(now){
     const back = collect(DATA[link.backKey], nowTs, (e,d,base,i,arr)=>({ depTs:base+parseMin(e)*MIN, isLastOfDay:(i===arr.length-1), sameDay:(midnightTs(d)===midnightTs(new Date(nowTs))), routes:busRoutesFor(link.backKey, e), offs:busOffsOf(e) }));
     const prev = lastBefore(back, nowTs);
     const next4 = back.filter(b=>b.depTs>=nowTs && midnightTs(new Date(b.depTs))===midnightTs(now)).slice(0,4); /* 只列当日，不滚入次日首班 */
-    if(prev && nowTs - prev.depTs <= 90*MIN) buses.push({ depTs:prev.depTs, missed:true, last:prev.isLastOfDay && prev.sameDay });
-    next4.forEach((b,i)=>buses.push({ depTs:b.depTs, missed:false, last:b.isLastOfDay && b.sameDay,
-      margin: i<2 ? Math.floor((b.depTs-nowTs)/MIN) - settings.walkStation : null }));
+    if(prev && nowTs - prev.depTs <= 90*MIN) buses.push({ depTs:prev.depTs, missed:true, last:prev.isLastOfDay && prev.sameDay, routes:prev.routes, offs:prev.offs });
+    next4.forEach((b,i)=>buses.push({ depTs:b.depTs, missed:false, last:b.isLastOfDay && b.sameDay, routes:b.routes, offs:b.offs,
+      margin: i<2 ? Math.floor((b.depTs-nowTs)/MIN) : null }));
   }
   const hour = now.getHours();
   const trainsFirst = (hour>=5 && hour<12);
@@ -1322,7 +1308,7 @@ function renderStation(box, now, nowTs){
       const firstUp = !b.missed && (i===0 || d.buses[i-1].missed);
       busSec += '<div class="bigbus'+(firstUp?" first":"")+(b.missed?" missed":"")+'">' +
         '<div><div class="bt">'+fmtHM(b.depTs)+'</div><div class="bl">'+(b.routes && b.routes.length ? busLabel(b.routes)+' · ' : '')+(b.missed ? "発車済み · 参照" : (link.pairStopName ? link.stopName+" 下車 "+busArrStr(b.depTs, b.offs, link.rideMin)+" 着" : "→ "+link.stopLabel+" 約"+link.rideMin+"分 · "+fmtHM(b.depTs+link.rideMin*MIN)+" 着"))+'</div></div>' +
-        (b.margin!=null ? '<div class="margin"><div class="m1'+(b.margin<5?" low":"")+'">残り '+b.margin+' 分</div><div class="m2">ホームへ戻る徒歩を差引済み</div></div>' : "") +
+        (b.margin!=null ? '<div class="margin"><div class="m1'+(b.margin<5?" low":"")+'">残り '+b.margin+' 分</div></div>' : "") +
         (b.last ? '<span class="lasttag">最終</span>' : "") + '</div>';
       if(b.last) busSec += '<div class="hazard"></div>';
     });
@@ -1591,13 +1577,6 @@ function fillSettings(){
   $("selBusStop").value = settings.busStop || "hoya-chosha";
   $("selStationA").value = settings.stationA || "S:保谷";
   $("selStationB").value = settings.stationB || "Y:市ヶ谷";
-  $("labWalkHome").textContent = "自宅 → " + busLink().stopName + "バス停（分）";
-  $("labWalkWork").textContent = "勤務先 → " + B().name + "駅（分）";
-  $("hintWalkWork").textContent = "目安 5～8 分。勤務先ページ左列には設定どおりこの目安を表示します。発車標の列車は" + B().name + "駅の発車時刻が基準です。";
-  $("labWalkStation").textContent = A().name + "駅 → 南口バス停（分）";
-  $("inWalkHome").value = settings.walkHome;
-  $("inWalkWork").value = settings.walkWork;
-  $("inWalkStation").value = settings.walkStation;
   $("inKey").value = settings.odptKey||"";
 }
 $("tabHome").addEventListener("click", ()=>{ show("board"); setMode("home", true); });
@@ -1644,9 +1623,6 @@ $("btnSaveSettings").addEventListener("click", ()=>{
   settings.busStop = $("selBusStop").value || "hoya-chosha";
   settings.stationA = $("selStationA").value || "S:保谷";
   settings.stationB = $("selStationB").value || "Y:市ヶ谷";
-  settings.walkHome = clamp($("inWalkHome").value, 0, 30, 3);
-  settings.walkWork = clamp($("inWalkWork").value, 5, 8, 7);
-  settings.walkStation = clamp($("inWalkStation").value, 0, 15, 3);
   settings.odptKey = $("inKey").value.trim();
   saveSettings(); show("board"); render(); fetchDelays();
 });
